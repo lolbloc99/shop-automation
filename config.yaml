@@ -96,13 +96,15 @@ variantes:
 # ---------- images (BLOC 2 — DÉSACTIVÉ en phase 1) ----------
 images:
   generer: true                      # phase 2 : génération active
-  modele: "gpt_image_2"              # choix Lucas 2026-06-20 : text-guard (zéro texte/logo) ; quality=medium
+  modele: "gpt_image_2"              # choix Lucas 2026-06-20 : text-guard (zéro texte/logo)
+  quality: "low"                     # TEST low = 0,5 cr/img (vs medium 2 cr). Passer medium pour hero/ad si besoin.
   # --- PIPELINE RÉFÉRENCE (Lucas 2026-06-20) : le texte seul réinvente le vêtement ---
   methode: "reference_concurrent"    # image produit concurrent en RÉFÉRENCE -> génération TRANSFORMATIVE
   # garder UNIQUEMENT le vêtement (coupe + couleur) de la réf ; mannequin + pose + fond DIFFÉRENTS
   # (sinon = quasi-copie de leur photo = viole droit d'auteur). Output = image originale.
   cadrage: "face, plein pied, mannequin face caméra, vêtement entièrement visible tête aux pieds"
   consistance_couleur: "hero_puis_recolor"  # 1 hero/produit -> recolor par couleur = MÊME mannequin/pose, seule la couleur change
+  image_dos: "couleur_principale"    # + 1 vue de dos, couleur principale SEULEMENT (pas par couleur) — image commune
   style: "mannequin femme face, plein pied, fond studio neutre (au cas par cas), premium catalog"
   fond: "studio neutre clair par défaut ; Lucas choisit au cas par cas"
   dimensions_fiche: [1024, 1024]

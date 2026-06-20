@@ -67,7 +67,8 @@
 - **Modèle = `gpt_image_2`** (text-guard, zéro texte/logo). recraft texte-seul abandonné (réinvente le vêtement → coupes différentes à chaque image).
 - **PIPELINE RÉFÉRENCE (Lucas 2026-06-20)** : l'image produit **concurrent sert de RÉFÉRENCE** → on génère NOTRE version. On garde **uniquement le vêtement** (coupe + couleur) ; **mannequin + pose + fond DIFFÉRENTS** (sinon = quasi-copie de leur photo = droit d'auteur). Output = image originale, transformative.
 - **Cadrage** : **face, plein pied, vêtement entièrement visible** (le concurrent shoote face plein pied — on réplique l'angle, pas la photo).
-- **Consistance couleur** : 1 **hero** par produit → **recolor** par couleur (= même mannequin/pose, seule la couleur change). Chaque image couleur **affectée à sa variante** Shopify. + détail/lifestyle communs.
+- **Consistance couleur** : 1 **hero** par produit → **recolor** par couleur (= même mannequin/pose, seule la couleur change). Chaque image couleur **affectée à sa variante** Shopify.
+- **+ 1 vue de DOS** dans la galerie (**couleur principale seulement**, pas par couleur) — image commune. Indispensable pour les pièces à dos travaillé (ex. robe dos ouvert).
 
 ## Facebook Ads — via MCP Meta Ads (BLOC 3 — RIEN créé/activé en phase 1)
 - **3 règles immuables (Lucas)** :
