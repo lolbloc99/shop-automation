@@ -5,10 +5,18 @@
 meta:
   marque: "Oria Studio"
   boutique_ref: "https://oriastudio.store/"
-  phase: 1                 # 1=rodage, 2=confiance, 3=maturité
+  phase: 2                 # 1=rodage, 2=confiance (Shopify auto), 3=maturité
   devise: "EUR"
   langue: "fr"
-  dry_run: true            # phase 1 : true partout (pas d'images/Shopify/ads réels)
+  dry_run: false           # phase 2 : création produit Shopify + image réelles
+
+# ---------- Shopify (création produit via MCP) ----------
+shopify:
+  creation_method: "mcp"          # mcp | csv — MCP = direct, plus d'import CSV manuel
+  statut_produit: "active"        # active = publié direct (choix Lucas 2026-06-20)
+  publier_online_store: true      # publishablePublish sur "Boutique en ligne"
+  metafields_namespace: "custom"  # capsule, matiere, entretien, coupe
+  csv_fallback: true              # garder l'export CSV si MCP indisponible
 
 # ---------- BLOC 1 : veille ----------
 veille:

@@ -11,9 +11,12 @@
 - Marketing **hybride** : premium sobre + offres ponctuelles par email. **Aucun prix barré permanent.**
 - PDP : galerie éditoriale + colonne sobre, accordéons (matière/entretien/livraison via métafields), reco « compléter la capsule ».
 
-## Plateforme & import
-- Plateforme : **Shopify**.
-- Format d'import CSV (en-têtes EXACTS — nouveau format Shopify, une ligne par variante) :
+## Plateforme & création produit
+- Plateforme : **Shopify** (MCP connecté à oriastudio.store).
+- **Création produit = directe via MCP Shopify** (`productCreate` / graphql), statut **ACTIVE + publié sur la Boutique en ligne** (choix Lucas 2026-06-20). **Plus d'import CSV manuel.**
+- **Flux autonome (phase 2)** : fiche voix Oria → image mannequin (sans logo/texte) → `productCreate` (active + publié + image principale) → récup du **lien produit** → tag capsule + métafields (`custom.capsule/matiere/entretien/coupe`) → **ad Meta en PAUSED** (MCP). **Seule action humaine : activer l'ad** (ça engage le budget).
+- **CSV = export de secours** (format ci-dessous), utilisé seulement si le MCP est indisponible.
+- Format CSV (en-têtes EXACTS — nouveau format Shopify, une ligne par variante) :
   ```
   Title,URL handle,Description,Vendor,Product category,Type,Tags,Published on online store,Status,SKU,Barcode,Option1 name,Option1 value,Option1 Linked To,Option2 name,Option2 value,Option2 Linked To,Option3 name,Option3 value,Option3 Linked To,Price,Compare-at price,Cost per item,Charge tax,Tax code,Unit price total measure,Unit price total measure unit,Unit price base measure,Unit price base measure unit,Inventory tracker,Inventory quantity,Continue selling when out of stock,Weight value (grams),Weight unit for display,Requires shipping,Fulfillment service,Product image URL,Image position,Image alt text,Variant image URL,Gift card,SEO title,SEO description,Color (product.metafields.shopify.color-pattern),Google Shopping / Google product category,Google Shopping / Gender,Google Shopping / Age group,Google Shopping / Manufacturer part number (MPN),Google Shopping / Ad group name,Google Shopping / Ads labels,Google Shopping / Condition,Google Shopping / Custom product,Google Shopping / Custom label 0,Google Shopping / Custom label 1,Google Shopping / Custom label 2,Google Shopping / Custom label 3,Google Shopping / Custom label 4
   ```
@@ -83,7 +86,8 @@
 ## Règle absolue (droit d'auteur)
 La data concurrente (textes, images) sert **UNIQUEMENT** de référence pour générer mes propres contenus. **Jamais réutilisée telle quelle.**
 
-## Garde-fous phase 1 (rodage)
-- **Aucune** image Higgsfield générée, **aucun** push Shopify, **aucune** création/activation d'ads sans OK explicite de Lucas.
-- Tout ce qui engage de l'argent ou met en ligne → déposé dans `output/a_valider/` + notification.
-- Chaque run journalisé dans `logs/`. Mode `--dry-run` partout.
+## Garde-fous (phase 2 — autonomie sur la préparation)
+- **Autonome** : génération image (sans logo/texte + QC), **création produit Shopify active+publié via MCP**, **création ad Meta en PAUSED** via MCP.
+- **Seule action humaine = activer l'ad** (passage PAUSED → ACTIVE — engage le budget). **Jamais automatique.**
+- Image : règle dure no logo / no texte / no watermark + QC (rejet si détecté).
+- Chaque run journalisé dans `logs/`. CSV = export de secours uniquement.
