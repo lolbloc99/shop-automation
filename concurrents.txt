@@ -1,0 +1,7 @@
+# Liste des boutiques concurrentes à surveiller (BLOC 1 — veille).
+# Format : URL [| plateforme]
+#   - plateforme optionnelle, auto-détectée si absente : shopify | unknown
+#   - lignes vides ou commençant par # ignorées
+# Tester chaque nouveau concurrent en session manuelle AVANT de l'ajouter ici.
+
+https://wijzijnvengee.nl/ | shopify

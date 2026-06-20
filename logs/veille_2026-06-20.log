@@ -1,0 +1,16 @@
+12:19:54 [INFO] === Veille BLOC 1 — 1 concurrent(s) — dry_run=True ===
+12:19:54 [WARNING] GET échec (tentative 1/3) https://wijzijnvengee.nl/products.json?limit=1 : <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1077)>
+12:19:55 [WARNING] GET échec (tentative 2/3) https://wijzijnvengee.nl/products.json?limit=1 : <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1077)>
+12:19:58 [WARNING] GET échec (tentative 3/3) https://wijzijnvengee.nl/products.json?limit=1 : <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1077)>
+12:20:03 [ERROR] GET abandonné après 3 tentatives : https://wijzijnvengee.nl/products.json?limit=1 (<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1077)>)
+12:20:03 [INFO] Concurrent wijzijnvengee.nl -> plateforme : unknown
+12:20:03 [ERROR] Aucune donnée récupérée pour wijzijnvengee.nl (plateforme=unknown). Astuce : coller un export dans /Users/lucas/Desktop/dossier sans titre/shop-automation/data/raw/manual/wijzijnvengee.nl.json
+12:20:03 [INFO] [dry-run] vus.json NON modifié (mémoire à 0 produits).
+12:20:03 [INFO] === Résumé : 0 scrapés, 0 NOUVEAUX -> /Users/lucas/Desktop/dossier sans titre/shop-automation/data/nouveaux.json ===
+12:20:43 [INFO] === Veille BLOC 1 — 1 concurrent(s) — dry_run=True ===
+12:20:44 [INFO] Concurrent wijzijnvengee.nl -> plateforme : shopify
+12:20:47 [INFO]   page 1 : 250 produits (total 250)
+12:20:50 [INFO]   page 2 : 55 produits (total 305)
+12:20:50 [INFO]   305 produits normalisés pour wijzijnvengee.nl
+12:20:50 [INFO] [dry-run] vus.json NON modifié (mémoire à 0 produits).
+12:20:50 [INFO] === Résumé : 305 scrapés, 305 NOUVEAUX -> /Users/lucas/Desktop/dossier sans titre/shop-automation/data/nouveaux.json ===

@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+*.tmp
+
+# Cache brut régénérable (audit/reprise) : on garde le dossier et les fichiers
+# « manuels » (fallback humain), mais pas les pages scrapées qui changent à
+# chaque run et gonfleraient l'historique git.
+data/raw/*/products_p*.json
+
+# data/vus.json, data/nouveaux.json, logs/ et output/ RESTENT versionnés
+# (persistance requise pour les routines cloud — une routine n'a pas de mémoire).

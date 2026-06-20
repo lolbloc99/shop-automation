@@ -1,0 +1,6 @@
+# Dépendances Python du système shop-automation.
+pyyaml>=6.0          # lecture de config.yaml
+certifi>=2024.0      # bundle CA pour la vérification SSL (Python macOS sans certs système)
+# Le BLOC 1 (veille) utilise urllib (stdlib) pour les requêtes HTTP : aucune
+# dépendance réseau supplémentaire requise. Décommenter si un bloc en a besoin.
+# requests>=2.31
