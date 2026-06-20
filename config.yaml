@@ -52,6 +52,7 @@ voix_marque:
 prix:
   multiplicateur: 1.0                # prix IDENTIQUE au concurrent (plus de marge x1.4)
   appliquer_arrondi: false           # false = garder le prix exact du concurrent (pas de .99 forcé)
+  prix_min_eur: 29.99                # PLANCHER : on ne traite/scrape AUCUN produit < ce prix (Lucas)
   arrondi: ".99"                     # utilisé seulement si appliquer_arrondi=true ou strategie markup
   compare_at:
     actif: true

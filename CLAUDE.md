@@ -45,6 +45,7 @@
 ## Prix
 - Devise : **EUR**.
 - Règle : `prix_vente = prix_concurrent` (**identique**, multiplicateur 1.0, sans arrondi forcé).
+- **Prix plancher : on ne traite/scrape AUCUN produit concurrent < 29,99 €** (`prix.prix_min_eur`). Filtré dès le BLOC 1 (veille).
 - **Prix avant réduction (`Compare-at price`) : OBLIGATOIRE** (le barré fait partie de l'identité Oria, ~45–50 % affiché).
   - Stratégie par défaut `concurrent` : si le concurrent expose un `compare_at_price` réel → le reprendre ×1.4 arrondi .99.
   - Sinon `markup` : ancre = `prix_vente / (1 − remise_affichee)`, `remise_affichee = 0.45`.

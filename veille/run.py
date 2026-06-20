@@ -73,7 +73,16 @@ def process_concurrent(url: str, hint: str, cfg: dict, logger) -> list[dict]:
                 raw, domain, url, devise, scraped_at))
         except Exception as exc:  # robustesse : un produit cassé ne casse pas le run
             logger.warning("Produit ignoré (parse échoué) chez %s : %s", domain, exc)
-    logger.info("  %d produits normalisés pour %s", len(normalized), domain)
+    # filtre PRIX PLANCHER : on ne traite aucun produit sous prix_min_eur
+    prix_min = cfg.get("prix", {}).get("prix_min_eur")
+    if prix_min:
+        avant = len(normalized)
+        normalized = [p for p in normalized
+                      if (p["prix_source"].get("montant") or 0) >= prix_min]
+        ignores = avant - len(normalized)
+        if ignores:
+            logger.info("  %d produits ignorés (< %.2f €) chez %s", ignores, prix_min, domain)
+    logger.info("  %d produits retenus pour %s", len(normalized), domain)
     return normalized
 
 

@@ -59,3 +59,11 @@
 14:06:49 [INFO] === BLOC 3 ads — 1 produit(s) — dry_run=True ===
 14:06:49 [INFO] Draft campagne prêt : robe-chemise-oversize-en-denim (statut PAUSED)
 14:06:49 [INFO] === 1 draft(s) prêt(s) à valider (PAUSED) dans output/a_valider/ (0 brouillon) ===
+18:40:25 [INFO] === Veille BLOC 1 — 1 concurrent(s) — dry_run=True ===
+18:40:26 [INFO] Concurrent wijzijnvengee.nl -> plateforme : shopify
+18:40:29 [INFO]   page 1 : 250 produits (total 250)
+18:40:33 [INFO]   page 2 : 55 produits (total 305)
+18:40:33 [INFO]   5 produits ignorés (< 29.99 €) chez wijzijnvengee.nl
+18:40:33 [INFO]   300 produits retenus pour wijzijnvengee.nl
+18:40:33 [INFO] [dry-run] vus.json NON modifié (mémoire à 0 produits).
+18:40:33 [INFO] === Résumé : 300 scrapés, 300 NOUVEAUX -> /Users/lucas/Desktop/dossier sans titre/shop-automation/data/nouveaux.json ===
