@@ -42,8 +42,9 @@ voix_marque:
 
 # ---------- prix (BLOC 2) ----------
 prix:
-  multiplicateur: 1.4
-  arrondi: ".99"                     # arrondi supérieur au .99
+  multiplicateur: 1.0                # prix IDENTIQUE au concurrent (plus de marge x1.4)
+  appliquer_arrondi: false           # false = garder le prix exact du concurrent (pas de .99 forcé)
+  arrondi: ".99"                     # utilisé seulement si appliquer_arrondi=true ou strategie markup
   compare_at:
     actif: true
     strategie: "concurrent"          # concurrent | markup | none
@@ -54,7 +55,7 @@ prix:
 
 # ---------- variantes (BLOC 2) ----------
 variantes:
-  tailles_vetements: ["XS", "S", "M", "L", "XL", "XXL"]
+  tailles_vetements: ["XS", "S", "M", "L", "XL", "XXL", "XXXL"]
   tailles_chaussures: ["34","35","36","37","38","39","40","41","42","43","44","45"]
   couleurs:
     source: "concurrent"

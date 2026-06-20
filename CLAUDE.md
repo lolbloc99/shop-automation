@@ -34,14 +34,14 @@
 
 ## Prix
 - Devise : **EUR**.
-- Règle : `prix_vente = arrondi .99 supérieur de (prix_concurrent × 1.4)`.
+- Règle : `prix_vente = prix_concurrent` (**identique**, multiplicateur 1.0, sans arrondi forcé).
 - **Prix avant réduction (`Compare-at price`) : OBLIGATOIRE** (le barré fait partie de l'identité Oria, ~45–50 % affiché).
   - Stratégie par défaut `concurrent` : si le concurrent expose un `compare_at_price` réel → le reprendre ×1.4 arrondi .99.
   - Sinon `markup` : ancre = `prix_vente / (1 − remise_affichee)`, `remise_affichee = 0.45`.
 - ⚠️ **Légal FR** : un prix barré permanent inventé viole la règle « prix de référence » (Directive Omnibus / Code conso : référence = plus bas prix pratiqué sur 30 j). Préférer `strategie=concurrent` ; ne pas fabriquer de fausse remise permanente.
 
 ## Variantes
-- Tailles **vêtements** : XS, S, M, L, XL, XXL.
+- Tailles **vêtements** : XS, S, M, L, XL, XXL, XXXL (2XL→XXL, 3XL→XXXL).
 - Tailles **chaussures** : 34 à 45.
 - Référentiel choisi selon la catégorie produit (vêtement vs chaussure) détectée chez le concurrent.
 - Couleurs : reprises du concurrent, **normalisées en français** (mapping dans `config.yaml`). Ex. Blauw/Blue → Bleu, Zwart/Black → Noir.

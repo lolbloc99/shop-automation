@@ -14,3 +14,9 @@
 12:20:50 [INFO]   305 produits normalisés pour wijzijnvengee.nl
 12:20:50 [INFO] [dry-run] vus.json NON modifié (mémoire à 0 produits).
 12:20:50 [INFO] === Résumé : 305 scrapés, 305 NOUVEAUX -> /Users/lucas/Desktop/dossier sans titre/shop-automation/data/nouveaux.json ===
+12:34:55 [INFO] === Pipeline BLOC 2 — 1 produit(s) — dry_run=True ===
+12:34:55 [INFO] Fiche prête : robe-chemise-oversize-en-denim (5 variantes)
+12:34:55 [INFO] === 1 produit(s) prêt(s) à valider dans output/a_valider/ (0 brouillon(s) à rédiger) ===
+12:39:32 [INFO] === Pipeline BLOC 2 — 1 produit(s) — dry_run=True ===
+12:39:32 [INFO] Fiche prête : robe-chemise-oversize-en-denim (6 variantes)
+12:39:32 [INFO] === 1 produit(s) prêt(s) à valider dans output/a_valider/ (0 brouillon(s) à rédiger) ===
