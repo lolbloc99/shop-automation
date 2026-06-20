@@ -64,8 +64,10 @@
   - Contrôle qualité BLOC 2 : toute image suspectée de contenir logo/texte → **rejetée**, placée en `output/a_valider/` avec mention, jamais poussée automatiquement.
 - Style (choix Lucas) : **mannequin femme portant le vêtement**, met en valeur le produit (lifestyle / studio), PNG. Pas de packshot vide.
 - Dimensions : 1024×1024 (fiche) + **1:1 (1080×1080) pour les ads** (Advantage+ adapte à tous les placements ; pas de 4:5/9:16 en auto).
-- **Galerie : 1 image générée PAR couleur** (même mannequin/cadrage/fond, seule la couleur change) → chaque image couleur **affectée à sa variante** Shopify (sélecteur couleur = bon visuel). **+ 2 images communes** (détail matière, lifestyle) partagées sur le produit.
-- **Teinte** : calée sur la **couleur réelle de la variante concurrent** (couleur dominante de leur image variante, ou nom→hex en fallback) passée à recraft via `colors`. **Référence couleur seulement — jamais leur photo republiée.**
+- **Modèle = `gpt_image_2`** (text-guard, zéro texte/logo). recraft texte-seul abandonné (réinvente le vêtement → coupes différentes à chaque image).
+- **PIPELINE RÉFÉRENCE (Lucas 2026-06-20)** : l'image produit **concurrent sert de RÉFÉRENCE** → on génère NOTRE version. On garde **uniquement le vêtement** (coupe + couleur) ; **mannequin + pose + fond DIFFÉRENTS** (sinon = quasi-copie de leur photo = droit d'auteur). Output = image originale, transformative.
+- **Cadrage** : **face, plein pied, vêtement entièrement visible** (le concurrent shoote face plein pied — on réplique l'angle, pas la photo).
+- **Consistance couleur** : 1 **hero** par produit → **recolor** par couleur (= même mannequin/pose, seule la couleur change). Chaque image couleur **affectée à sa variante** Shopify. + détail/lifestyle communs.
 
 ## Facebook Ads — via MCP Meta Ads (BLOC 3 — RIEN créé/activé en phase 1)
 - **3 règles immuables (Lucas)** :
@@ -88,6 +90,7 @@
 
 ## Règle absolue (droit d'auteur)
 La data concurrente (textes, images) sert **UNIQUEMENT** de référence pour générer mes propres contenus. **Jamais réutilisée telle quelle.**
+- **Image en référence = OK** pour capter la **forme du vêtement** (coupe/couleur), MAIS l'output doit être **transformatif** : mannequin, pose et fond **différents**. Un simple re-teintage de leur photo (même mannequin/pose) = quasi-copie = INTERDIT (vérifié 2026-06-20 : Nano Banana clonait, gpt_image_2 avec prompt "mannequin différent" = transformatif OK).
 
 ## Garde-fous (phase 2/3 — autonomie complète)
 - **Bout en bout autonome** : image (sans logo/texte + QC) → produit Shopify active+publié → **ad Meta ACTIVE programmée J+1 00h01**. Aucun clic humain requis.
