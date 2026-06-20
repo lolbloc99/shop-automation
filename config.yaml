@@ -100,13 +100,28 @@ images:
 
 # ---------- Meta Ads (BLOC 3 — DÉSACTIVÉ en phase 1) ----------
 ads:
-  actif: false                       # phase 1 : rien créé/activé
-  compte_publicitaire: ""            # act_... à confirmer BLOC 3 (MCP Meta)
+  actif: false                       # phase 1 : rien créé/activé (dry-run draft seulement)
+  # --- 3 règles immuables Lucas ---
+  objectif: "OUTCOME_SALES"          # (1) toujours OUTCOME_SALES
+  evenement_conversion: "PURCHASE"   # (1) pixel PURCHASE
+  formats: ["1:1", "4:5", "9:16"]    # (2) multi-format même ad (asset_feed_spec)
+  variations:                        # (3) 3-5 variations
+    bodies: 5
+    titles: 5
+    descriptions: 3
+  # --- comptes / IDs (placeholders, remplis au GO de création live) ---
+  compte_publicitaire: ""            # act_... récupéré via MCP Meta au moment de créer
   page_fb: ""
   compte_ig: ""
+  pixel_id: ""
   budget_test_jour_eur: 10
-  audience_defaut: "femmes FR"
-  statut_creation: "PAUSED"          # jamais ACTIVE auto en phase 1/2
+  audience_defaut:
+    pays: ["FR"]
+    genre: "femmes"
+    age_min: 25
+    age_max: 65                      # 65 = bucket "65+" chez Meta
+    ciblage: "advantage+ / large"    # à confirmer
+  statut_creation: "PAUSED"          # jamais ACTIVE auto en phase 1/2 (activation = humaine)
 
 # ---------- analyse ads (BLOC 4 — recommandation seule) ----------
 analyse_ads:

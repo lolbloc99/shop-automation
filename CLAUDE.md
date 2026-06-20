@@ -56,11 +56,15 @@
 - 1 image/produit (+1 par couleur si plusieurs coloris).
 
 ## Facebook Ads — via MCP Meta Ads (BLOC 3 — RIEN créé/activé en phase 1)
-- Compte publicitaire : `[À CONFIRMER au BLOC 3 — récupéré via MCP Meta]`
-- Page FB / IG : `[À CONFIRMER au BLOC 3]`
+- **3 règles immuables (Lucas)** :
+  1. Objectif **OUTCOME_SALES** + pixel **PURCHASE** systématiques.
+  2. **Multi-format** dans la même ad via `asset_feed_spec` : 1:1 + 4:5 + 9:16.
+  3. **3-5 variations** : bodies (primary texts) + titles (headlines) + descriptions.
+- Compte publicitaire / Page FB / IG / pixel : `[récupérés via MCP Meta au moment de créer]`.
 - Budget de test par produit : 10 €/jour (défaut).
-- Audience par défaut : femmes FR (à préciser au BLOC 3).
+- Audience par défaut : femmes FR, 25-65+ (age_max=65), large/advantage+ (à confirmer).
 - Campagne TOUJOURS créée en **PAUSED**. Activation = action humaine (phases 1 et 2).
+- Texte d'accroche dans la voix de marque Oria. Claims interdits = mêmes que la voix de marque.
 
 ## Seuils ads (BLOC 4)
 - Couper : dépense ≥ 2 × CPA cible ET 0 vente.

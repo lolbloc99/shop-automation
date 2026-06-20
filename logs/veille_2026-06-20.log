@@ -20,3 +20,15 @@
 12:39:32 [INFO] === Pipeline BLOC 2 — 1 produit(s) — dry_run=True ===
 12:39:32 [INFO] Fiche prête : robe-chemise-oversize-en-denim (6 variantes)
 12:39:32 [INFO] === 1 produit(s) prêt(s) à valider dans output/a_valider/ (0 brouillon(s) à rédiger) ===
+12:47:15 [INFO] === BLOC 3 ads — 1 produit(s) — dry_run=True ===
+12:47:15 [INFO] Draft campagne prêt : robe-chemise-oversize-en-denim (statut PAUSED)
+12:47:15 [INFO] === 1 draft(s) prêt(s) à valider (PAUSED) dans output/a_valider/ (0 brouillon) ===
+12:48:32 [INFO] === BLOC 3 ads — 1 produit(s) — dry_run=True ===
+12:48:32 [INFO] Draft campagne prêt : robe-chemise-oversize-en-denim (statut PAUSED)
+12:48:32 [INFO] === 1 draft(s) prêt(s) à valider (PAUSED) dans output/a_valider/ (0 brouillon) ===
+12:48:59 [INFO] === BLOC 3 ads — 1 produit(s) — dry_run=True ===
+12:48:59 [INFO] Draft campagne prêt : robe-chemise-oversize-en-denim (statut PAUSED)
+12:48:59 [INFO] === 1 draft(s) prêt(s) à valider (PAUSED) dans output/a_valider/ (0 brouillon) ===
+12:53:17 [INFO] === BLOC 3 ads — 1 produit(s) — dry_run=True ===
+12:53:17 [INFO] Draft campagne prêt : robe-chemise-oversize-en-denim (statut PAUSED)
+12:53:17 [INFO] === 1 draft(s) prêt(s) à valider (PAUSED) dans output/a_valider/ (0 brouillon) ===

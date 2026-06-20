@@ -1,0 +1,81 @@
+{
+  "campaign": {
+    "name": "TEST | robe-chemise-oversize-en-denim | SALES | 2026-06-20",
+    "objective": "OUTCOME_SALES",
+    "special_ad_categories": [],
+    "status": "PAUSED"
+  },
+  "adset": {
+    "name": "robe-chemise-oversize-en-denim | FR-femmes-25-65",
+    "daily_budget_eur": 10,
+    "billing_event": "IMPRESSIONS",
+    "optimization_goal": "OFFSITE_CONVERSIONS",
+    "promoted_object": {
+      "pixel_id": "{{PIXEL_ID}}",
+      "custom_event_type": "PURCHASE"
+    },
+    "targeting": {
+      "geo_locations": {
+        "countries": [
+          "FR"
+        ]
+      },
+      "genders": [
+        2
+      ],
+      "age_min": 25,
+      "age_max": 65,
+      "targeting_automation": {
+        "advantage_audience": 1
+      }
+    },
+    "status": "PAUSED"
+  },
+  "ad": {
+    "name": "robe-chemise-oversize-en-denim | multiformat",
+    "status": "PAUSED",
+    "creative": {
+      "asset_feed_spec": {
+        "formats": [
+          "1:1",
+          "4:5",
+          "9:16"
+        ],
+        "visuels_par_format": {
+          "1:1": "{{VISUEL_1x1}}",
+          "4:5": "{{VISUEL_4x5}}",
+          "9:16": "{{VISUEL_9x16}}"
+        },
+        "bodies": [
+          "La robe-chemise en denim qui s'enfile sans réfléchir. Coupe oversize, jamais informe. Livraison offerte, retour gratuit.",
+          "Un denim doux pensé pour durer, une coupe oversize jamais informe. Du XS au XXXL, parce que nous célébrons chaque corps.",
+          "Le confort d'une chemise, l'allure d'une robe. En denim souple, du matin au soir. Retour gratuit, support français.",
+          "Notre robe-chemise oversize en denim : facile, intemporelle, pensée pour bouger. Du XS au XXXL. Livraison offerte en France.",
+          "Une pièce qui se pose et fait tout le travail. Denim résistant, coupe relax, du XS au XXXL. Célébrez chaque corps."
+        ],
+        "titles": [
+          "La robe-chemise en denim oversize",
+          "Confort denim, allure sans effort",
+          "Du XS au XXXL, pour chaque corps",
+          "Oversize, jamais informe",
+          "Livraison offerte, retour gratuit"
+        ],
+        "descriptions": [
+          "Denim souple, coupe oversize",
+          "Livraison offerte en France",
+          "Du XS au XXXL"
+        ],
+        "link_url": "{{SHOPIFY_PRODUCT_URL}}",
+        "call_to_action": {
+          "type": "SHOP_NOW"
+        }
+      }
+    }
+  },
+  "_meta": {
+    "compte_publicitaire": "{{ACT_ID}}",
+    "page_fb": "{{PAGE_ID}}",
+    "compte_ig": "{{IG_ID}}",
+    "titre_produit": "Robe-chemise oversize en denim"
+  }
+}
