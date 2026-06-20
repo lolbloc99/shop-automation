@@ -77,7 +77,8 @@
   2. **Visuel 1:1 unique** : Advantage+ placements le recadre sur tous les feeds/placements. (Le MCP Meta ne sait pas uploader d'images ni gérer `asset_feed_spec` → pas de 4:5/9:16 natifs en auto ; à faire à la main si besoin.)
   3. **3-5 variations** : bodies (primary texts) + titles (headlines) + descriptions.
 - Compte publicitaire / Page FB / IG / pixel : `[récupérés via MCP Meta au moment de créer]`.
-- Budget de test par produit : 10 €/jour (défaut).
+- **Structure (Lucas 2026-06-20)** : **1 seule campagne `Oria | TEST Fashion` en ABO** ; chaque nouveau produit = **+1 adset** (budget 10 €/j à l'adset) + 1 ad. Pas une campagne par produit (CBO multi-produits affame les nouveaux). Les **winners** migrent plus tard vers une campagne **SCALE (CBO)** à gros budget.
+- Budget de test par produit : 10 €/jour (à l'adset, ABO).
 - Audience par défaut : femmes FR, 25-65+ (age_max=65), large/advantage+ (à confirmer).
 - **Lancement AUTO** (choix Lucas 2026-06-20) : ad créée **ACTIVE** avec `start_time` = **J+1 à 00h01** (fuseau du compte / France) → démarre seule à 00h01 le lendemain. **Lève la règle « activation manuelle ».**
 - **Garde-fous budget (car auto)** : budget test **10 €/j par ad** (plafond par ad) + **max 3 nouvelles ads lancées/jour** (anti-emballement, `ads.max_nouvelles_par_jour`) + BLOC 4 surveille et recommande de couper. Ajustables en config.

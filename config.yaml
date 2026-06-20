@@ -129,6 +129,10 @@ ads:
   # --- 3 règles immuables Lucas ---
   objectif: "OUTCOME_SALES"          # (1) toujours OUTCOME_SALES
   evenement_conversion: "PURCHASE"   # (1) pixel PURCHASE
+  # --- structure (Lucas 2026-06-20) : 1 campagne TEST unique en ABO ---
+  structure: "abo_test"              # 1 campagne "Oria | TEST Fashion" (ABO) ; chaque nouveau produit = +1 adset
+  campagne_test_id: "120249947032740725"   # Oria | TEST Fashion (ABO) — budget PAR adset (10€/j)
+  campagne_scale_id: ""              # CBO, créée plus tard ; les WINNERS du test y migrent (gros budget)
   formats: ["1:1"]                    # (2) visuel 1:1 unique — Advantage+ adapte tous les
                                       #     placements (MCP ne supporte pas l'upload/asset_feed_spec)
   variations:                        # (3) 3-5 variations
