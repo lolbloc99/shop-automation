@@ -137,7 +137,10 @@ ads:
     quand: "J+1"                     # lendemain
     heure: "00:01"
     fuseau: "Europe/Paris"           # fuseau du compte / France
-  max_nouvelles_par_jour: 3          # anti-emballement budget (plafond ~30 €/j)
+  max_nouvelles_par_jour: null       # ILLIMITÉ (Lucas : traiter TOUS les nouveaux produits)
+  ads_par_produit: 1                 # 1 ad / produit (N produits détectés -> N ads)
+  # ⚠ dépense/jour = (nb produits détectés) × budget_test_jour_eur. Toit dur conseillé :
+  #   plafond de dépense au niveau du COMPTE Meta (réglé côté Ads Manager par Lucas).
 
 # ---------- analyse ads (BLOC 4 — recommandation seule) ----------
 analyse_ads:

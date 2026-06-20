@@ -89,9 +89,11 @@ La data concurrente (textes, images) sert **UNIQUEMENT** de référence pour gé
 
 ## Garde-fous (phase 2/3 — autonomie complète)
 - **Bout en bout autonome** : image (sans logo/texte + QC) → produit Shopify active+publié → **ad Meta ACTIVE programmée J+1 00h01**. Aucun clic humain requis.
-- **Garde-fous budget (remplacent l'activation manuelle)** :
-  - budget test **10 €/j par ad** (plafond par ad) ;
-  - **max `ads.max_nouvelles_par_jour` (= 3) nouvelles ads lancées/jour** → plafond dépense quotidienne ≈ 30 €/j ;
+- **Volume : ILLIMITÉ** (choix Lucas 2026-06-20) — N nouveaux produits détectés → N produits créés + N images + **N ads** (1 ad/produit). Pas de cap de nombre.
+- **Contrôle budget** :
+  - budget test **10 €/j par ad** (seul plafond par ad) ;
+  - ⚠ **dépense/jour = (nb produits détectés) × 10 €** (ex. 20 produits → 200 €/j) — assumé par Lucas ;
+  - toit dur conseillé = **plafond de dépense au niveau du COMPTE Meta** (réglé côté Ads Manager) ;
   - BLOC 4 surveille les ads actives et **recommande de couper** ce qui brûle (auto-coupe possible en phase 3).
 - Image : règle dure no logo / no texte / no watermark + QC (rejet si détecté).
 - Chaque run journalisé dans `logs/`. CSV = export de secours uniquement.
