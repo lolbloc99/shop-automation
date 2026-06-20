@@ -51,7 +51,7 @@
   - Prompt négatif systématique : `no text, no logo, no watermark, no typography, no letters`.
   - Éviter `soul_2` (injecte texte/watermark). Modèle pressenti `recraft-v4-1` (respecte le « no text »).
   - Contrôle qualité BLOC 2 : toute image suspectée de contenir logo/texte → **rejetée**, placée en `output/a_valider/` avec mention, jamais poussée automatiquement.
-- Style recommandé (calé sur Oria, à confirmer au 1er run) : **packshot produit seul, fond uni quasi-blanc, sans mannequin ni props**, PNG.
+- Style (choix Lucas) : **mannequin femme portant le vêtement**, met en valeur le produit (lifestyle / studio), PNG. Pas de packshot vide.
 - Dimensions : 1024×1024 (fiche) + **1:1 (1080×1080) pour les ads** (Advantage+ adapte à tous les placements ; pas de 4:5/9:16 en auto).
 - 1 image/produit (+1 par couleur si plusieurs coloris).
 

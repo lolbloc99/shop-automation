@@ -85,9 +85,9 @@ variantes:
 # ---------- images (BLOC 2 — DÉSACTIVÉ en phase 1) ----------
 images:
   generer: false                     # phase 1 : aucune génération Higgsfield
-  modele: "recraft-v4-1"             # respecte "no text" ; éviter soul_2 (injecte texte/watermark)
-  style: "packshot produit seul, fond uni quasi-blanc, sans mannequin"
-  fond: "blanc"
+  modele: "recraft-v4-1"             # standard ; respecte "no text" ; éviter soul_2 (injecte texte/watermark)
+  style: "mannequin femme portant le vêtement, lifestyle, met en valeur le produit (choix Lucas 2026-06-20)"
+  fond: "selon style (studio / rue / intérieur)"
   dimensions_fiche: [1024, 1024]
   dimensions_ads: [1080, 1080]       # 1:1 — Advantage+ recadre sur tous les placements
   images_par_produit: 1
