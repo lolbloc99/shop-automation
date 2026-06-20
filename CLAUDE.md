@@ -70,7 +70,8 @@
 - Couper : dépense ≥ 2 × CPA cible ET 0 vente.
 - Scaler : +20 %/jour si ROAS ≥ 2 sur 3 jours.
 - Fenêtre d'apprentissage : 3 jours / ~15 €/jour avant tout jugement.
-- CPA cible : `[À DÉFINIR au BLOC 3/4]`.
+- CPA cible : **15 €** (à confirmer, dépend de la marge réelle).
+- Surveiller : ROAS 1.5-2 = laisser tourner ; CTR < 1 % = créative à retravailler.
 
 ## Règle absolue (droit d'auteur)
 La data concurrente (textes, images) sert **UNIQUEMENT** de référence pour générer mes propres contenus. **Jamais réutilisée telle quelle.**

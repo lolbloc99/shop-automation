@@ -32,3 +32,9 @@
 12:53:17 [INFO] === BLOC 3 ads — 1 produit(s) — dry_run=True ===
 12:53:17 [INFO] Draft campagne prêt : robe-chemise-oversize-en-denim (statut PAUSED)
 12:53:17 [INFO] === 1 draft(s) prêt(s) à valider (PAUSED) dans output/a_valider/ (0 brouillon) ===
+13:00:28 [INFO] === Analyse : 5 campagnes -> {'LAISSER TOURNER': 5} ===
+13:00:28 [INFO] Rapport (recommandation seule) : /Users/lucas/Desktop/dossier sans titre/shop-automation/output/a_valider/rapport_ads_2026-06-20.md
+13:00:58 [INFO] === Analyse : 5 campagnes -> {'LAISSER TOURNER': 2, 'COUPER': 1, 'SCALER': 1, 'AJUSTER': 1} ===
+13:00:58 [INFO] Rapport (recommandation seule) : /Users/lucas/Desktop/dossier sans titre/shop-automation/output/a_valider/rapport_ads_2026-06-20.md
+13:01:30 [INFO] === Analyse : 5 campagnes -> {'LAISSER TOURNER': 2, 'COUPER': 1, 'SCALER': 1, 'AJUSTER': 1} ===
+13:01:30 [INFO] Rapport (recommandation seule) : /Users/lucas/Desktop/dossier sans titre/shop-automation/output/a_valider/rapport_ads_2026-06-20.md

@@ -126,9 +126,13 @@ ads:
 # ---------- analyse ads (BLOC 4 — recommandation seule) ----------
 analyse_ads:
   mode: "recommandation"             # recommandation | action (phase 3)
-  cpa_cible_eur: null                # à définir BLOC 3/4
-  couper_si: "depense >= 2*cpa_cible AND ventes == 0"
-  scaler_si: "roas >= 2 sur 3 jours -> +20%/jour"
+  cpa_cible_eur: 15                  # à CONFIRMER (dépend marge réelle)
+  roas_scaler_min: 2.0               # ROAS >= -> SCALER
+  roas_surveiller_min: 1.5           # entre surveiller_min et scaler_min -> LAISSER TOURNER
+  ctr_min_pct: 1.0                   # CTR < -> créative à retravailler (AJUSTER)
+  scale_step_pct: 20                 # +20 %/jour
+  couper_si: "depense >= 2*cpa_cible AND ventes == 0 (après apprentissage)"
+  scaler_si: "roas >= roas_scaler_min sur la fenêtre -> +scale_step_pct/jour"
   fenetre_apprentissage_jours: 3
   budget_apprentissage_jour_eur: 15
 
