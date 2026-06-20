@@ -27,6 +27,7 @@
 - Surveillés via `concurrents.txt` (1 URL/ligne + plateforme).
 - Test initial : **https://wijzijnvengee.nl/** (Shopify, NL, EUR).
 - Méthode privilégiée : si Shopify → endpoint `/products.json` (structuré, propre). Fallback HTML + collage manuel.
+- **Onboarding d'un nouveau concurrent (RÈGLE)** : ajouter l'URL dans `concurrents.txt` suffit. Au **1er passage**, tout son catalogue d'arrivée est **baseliné** = marqué « vu » dans `vus.json` **sans être traité** (on ne crée PAS les centaines de produits déjà en ligne, souvent plus trend). **Seuls ses drops FUTURS** (ajoutés après l'onboarding) sont traités. Logique dans `veille/diff.py` (un domaine est « connu » dès ≥1 produit en mémoire).
 
 ## Voix de marque (déduite d'Oria Studio)
 - Langue : **Français uniquement**.
