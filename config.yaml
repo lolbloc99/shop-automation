@@ -108,7 +108,7 @@ images:
 
 # ---------- Meta Ads (BLOC 3 — DÉSACTIVÉ en phase 1) ----------
 ads:
-  actif: false                       # phase 1 : rien créé/activé (dry-run draft seulement)
+  actif: true                        # phase 2 : création + lancement auto
   # --- 3 règles immuables Lucas ---
   objectif: "OUTCOME_SALES"          # (1) toujours OUTCOME_SALES
   evenement_conversion: "PURCHASE"   # (1) pixel PURCHASE
@@ -130,7 +130,14 @@ ads:
     age_min: 25
     age_max: 65                      # 65 = bucket "65+" chez Meta
     ciblage: "advantage+ / large"    # à confirmer
-  statut_creation: "PAUSED"          # jamais ACTIVE auto en phase 1/2 (activation = humaine)
+  # --- lancement auto (choix Lucas 2026-06-20) ---
+  statut_creation: "ACTIVE"          # créée ACTIVE avec start_time futur -> démarre seule
+  lancement:
+    auto: true
+    quand: "J+1"                     # lendemain
+    heure: "00:01"
+    fuseau: "Europe/Paris"           # fuseau du compte / France
+  max_nouvelles_par_jour: 3          # anti-emballement budget (plafond ~30 €/j)
 
 # ---------- analyse ads (BLOC 4 — recommandation seule) ----------
 analyse_ads:

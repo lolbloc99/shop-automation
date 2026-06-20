@@ -73,7 +73,8 @@
 - Compte publicitaire / Page FB / IG / pixel : `[récupérés via MCP Meta au moment de créer]`.
 - Budget de test par produit : 10 €/jour (défaut).
 - Audience par défaut : femmes FR, 25-65+ (age_max=65), large/advantage+ (à confirmer).
-- Campagne TOUJOURS créée en **PAUSED**. Activation = action humaine (phases 1 et 2).
+- **Lancement AUTO** (choix Lucas 2026-06-20) : ad créée **ACTIVE** avec `start_time` = **J+1 à 00h01** (fuseau du compte / France) → démarre seule à 00h01 le lendemain. **Lève la règle « activation manuelle ».**
+- **Garde-fous budget (car auto)** : budget test **10 €/j par ad** (plafond par ad) + **max 3 nouvelles ads lancées/jour** (anti-emballement, `ads.max_nouvelles_par_jour`) + BLOC 4 surveille et recommande de couper. Ajustables en config.
 - Texte d'accroche dans la voix de marque Oria. Claims interdits = mêmes que la voix de marque.
 
 ## Seuils ads (BLOC 4)
@@ -86,8 +87,11 @@
 ## Règle absolue (droit d'auteur)
 La data concurrente (textes, images) sert **UNIQUEMENT** de référence pour générer mes propres contenus. **Jamais réutilisée telle quelle.**
 
-## Garde-fous (phase 2 — autonomie sur la préparation)
-- **Autonome** : génération image (sans logo/texte + QC), **création produit Shopify active+publié via MCP**, **création ad Meta en PAUSED** via MCP.
-- **Seule action humaine = activer l'ad** (passage PAUSED → ACTIVE — engage le budget). **Jamais automatique.**
+## Garde-fous (phase 2/3 — autonomie complète)
+- **Bout en bout autonome** : image (sans logo/texte + QC) → produit Shopify active+publié → **ad Meta ACTIVE programmée J+1 00h01**. Aucun clic humain requis.
+- **Garde-fous budget (remplacent l'activation manuelle)** :
+  - budget test **10 €/j par ad** (plafond par ad) ;
+  - **max `ads.max_nouvelles_par_jour` (= 3) nouvelles ads lancées/jour** → plafond dépense quotidienne ≈ 30 €/j ;
+  - BLOC 4 surveille les ads actives et **recommande de couper** ce qui brûle (auto-coupe possible en phase 3).
 - Image : règle dure no logo / no texte / no watermark + QC (rejet si détecté).
 - Chaque run journalisé dans `logs/`. CSV = export de secours uniquement.
