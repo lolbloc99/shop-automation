@@ -1,0 +1,125 @@
+# config.yaml — paramètres centraux du système shop-automation
+# Toutes les règles métier modifiables ici (prix, ton, style image, seuils ads).
+# Marque de référence : Oria Studio (oriastudio.store). Phase actuelle : 1 (rodage).
+
+meta:
+  marque: "Oria Studio"
+  boutique_ref: "https://oriastudio.store/"
+  phase: 1                 # 1=rodage, 2=confiance, 3=maturité
+  devise: "EUR"
+  langue: "fr"
+  dry_run: true            # phase 1 : true partout (pas d'images/Shopify/ads réels)
+
+# ---------- BLOC 1 : veille ----------
+veille:
+  fichier_concurrents: "concurrents.txt"
+  delai_entre_requetes_sec: 2.0      # anti-blocage
+  methode_priorite: "shopify_json"   # shopify_json | html | manuel
+  shopify:
+    products_json_path: "/products.json"
+    page_size: 250                   # max Shopify
+    sitemap_path: "/sitemap.xml"
+  cache_brut: "data/raw/"
+  user_agent: "Mozilla/5.0 (compatible; veille-bot/1.0; +contact)"
+  timeout_sec: 20
+
+# ---------- voix de marque (BLOC 2 rédaction) ----------
+voix_marque:
+  langue: "fr"
+  ton: ["élevé", "sensoriel", "rassurant", "body-positive", "intemporel"]
+  longueur_description_mots: [70, 110]
+  emojis: false
+  structure_description:
+    - "accroche_1_ligne"
+    - "lead_1_2_phrases"
+    - "section_matiere"
+    - "section_coupe"
+    - "le_bon_geste_d_entretien"     # toujours présent
+  titre_pattern: "[vêtement] [coupe/style] en [matière]"
+  privilegier: ["Livraison offerte", "Retour gratuit", "Support Français",
+                "Nous célébrons chaque corps", "Conception intentionnelle"]
+  eviter: ["Fabriqué en France", "pourcentage fibres non vérifié", "allégations santé"]
+
+# ---------- prix (BLOC 2) ----------
+prix:
+  multiplicateur: 1.4
+  arrondi: ".99"                     # arrondi supérieur au .99
+  compare_at:
+    actif: true
+    strategie: "concurrent"          # concurrent | markup | none
+    remise_affichee: 0.45            # utilisé si strategie=markup
+  note_legale_fr: >
+    Prix barré permanent inventé = risque "prix de référence" (Directive Omnibus).
+    Préférer strategie=concurrent.
+
+# ---------- variantes (BLOC 2) ----------
+variantes:
+  tailles_vetements: ["XS", "S", "M", "L", "XL", "XXL"]
+  tailles_chaussures: ["34","35","36","37","38","39","40","41","42","43","44","45"]
+  couleurs:
+    source: "concurrent"
+    normaliser_en_fr: true
+    mapping:                         # extensible (NL/EN -> FR)
+      Blauw: "Bleu"
+      Zwart: "Noir"
+      Wit: "Blanc"
+      Groen: "Vert"
+      Rood: "Rouge"
+      Geel: "Jaune"
+      Roze: "Rose"
+      Grijs: "Gris"
+      Bruin: "Marron"
+      Beige: "Beige"
+      Blue: "Bleu"
+      Black: "Noir"
+      White: "Blanc"
+      Green: "Vert"
+      Red: "Rouge"
+      Grey: "Gris"
+      Gray: "Gris"
+      Brown: "Marron"
+      Pink: "Rose"
+      Yellow: "Jaune"
+
+# ---------- images (BLOC 2 — DÉSACTIVÉ en phase 1) ----------
+images:
+  generer: false                     # phase 1 : aucune génération Higgsfield
+  modele: "recraft-v4-1"             # respecte "no text" ; éviter soul_2 (injecte texte/watermark)
+  style: "packshot produit seul, fond uni quasi-blanc, sans mannequin"
+  fond: "blanc"
+  dimensions_fiche: [1024, 1024]
+  dimensions_ads: [1080, 1350]       # 4:5
+  images_par_produit: 1
+  image_par_couleur: true
+  # RÈGLE DURE : aucun logo, aucun texte, aucun watermark
+  interdire_logo: true
+  interdire_texte: true
+  prompt_negatif: "no text, no logo, no watermark, no typography, no letters"
+  qc_rejeter_si_logo_ou_texte: true  # contrôle qualité -> rejet en output/a_valider/
+
+# ---------- Meta Ads (BLOC 3 — DÉSACTIVÉ en phase 1) ----------
+ads:
+  actif: false                       # phase 1 : rien créé/activé
+  compte_publicitaire: ""            # act_... à confirmer BLOC 3 (MCP Meta)
+  page_fb: ""
+  compte_ig: ""
+  budget_test_jour_eur: 10
+  audience_defaut: "femmes FR"
+  statut_creation: "PAUSED"          # jamais ACTIVE auto en phase 1/2
+
+# ---------- analyse ads (BLOC 4 — recommandation seule) ----------
+analyse_ads:
+  mode: "recommandation"             # recommandation | action (phase 3)
+  cpa_cible_eur: null                # à définir BLOC 3/4
+  couper_si: "depense >= 2*cpa_cible AND ventes == 0"
+  scaler_si: "roas >= 2 sur 3 jours -> +20%/jour"
+  fenetre_apprentissage_jours: 3
+  budget_apprentissage_jour_eur: 15
+
+# ---------- sorties & logs ----------
+sorties:
+  nouveaux: "data/nouveaux.json"
+  vus: "data/vus.json"
+  imports_csv: "output/imports/"
+  a_valider: "output/a_valider/"
+  logs: "logs/"
