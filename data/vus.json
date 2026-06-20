@@ -1,3 +1,1804 @@
 {
-  "produits": {}
+  "produits": {
+    "wijzijnvengee.nl::10841078858065": {
+      "titre": "Loes | Denim Overhemdjurk",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/loes",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10841079054673": {
+      "titre": "Isabella | Luchtige Tweedelige Set",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/isabella",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10841078497617": {
+      "titre": "Veronica | Flatterend Badpak",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/veronica",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10841077678417": {
+      "titre": "Merel | Speelse Jurk met Open Rug",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/merel",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10834767610193": {
+      "titre": "Yvonne | Afslankende Zomerse Jurk",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/yvonne",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10834766594385": {
+      "titre": "Manon | Tummy Control Bikini met Gouden Detail",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/manon",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10815411224913": {
+      "titre": "Marloes | Instap Sneakers met Demping",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/marloes",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10834236375377": {
+      "titre": "Maartje | Slankmakend Badpak met Ruffle Details",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/maartje",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10832722461009": {
+      "titre": "Inge | Tummy Control Badpak",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/inge",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10815415615825": {
+      "titre": "Linnea | Lichtgewicht Set met Vest",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/linnea",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10829531709777": {
+      "titre": "Lily | Casual Mouwloze Mini-jurk met Shorts",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/lily",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10829533282641": {
+      "titre": "Linda | Bikiniset met Bloemenprint en Boyshort",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/linda",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10829532496209": {
+      "titre": "Zoë | Corrigerend Badpak",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/zoe",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10829530497361": {
+      "titre": "Karin | Losvallende Jumpsuit met V-hals",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/karin",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10815410372945": {
+      "titre": "Renske | Comfortabele Zomerse Sandalen",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/renske",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10815414894929": {
+      "titre": "Esther | Corrigerende Bikini met Hoge Taille",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/esther",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10815413059921": {
+      "titre": "Cheska | Jumpsuit met Gedefinieerde Taille",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/cheska",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10815408374097": {
+      "titre": "Carlijn | Bikini met Contrasterende Bies",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/carlijn",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10815409553745": {
+      "titre": "Daphne | Zomerse Jumpsuit",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/daphne",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10815418433873": {
+      "titre": "Charlotte | Flirterig Badpak met V-hals",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/charlotte",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10815419547985": {
+      "titre": "Wendy | Badpak met Gekruist Wikkeldetail",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/wendy",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10815413911889": {
+      "titre": "Marieke | Vintage Hakken",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/marieke",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10815417516369": {
+      "titre": "Kiki | Bikiniset met Wikkelrok en Ingebouwd Broekje",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/kiki",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10815412076881": {
+      "titre": "Yara | Beeldhouwend Halterbadpak met Diepe V-hals",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/yara",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10802477465937": {
+      "titre": "Veerle | Zomerse Jurk met Gedraaid Element",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/veerle",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10802480480593": {
+      "titre": "Lize | Elegante 3-delige Set",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/lize",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10802549129553": {
+      "titre": "Pien | Neon Print Bikini",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/pien",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10799092400465": {
+      "titre": "Suze | Corrigerend Badpak met Hoge Taille",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/suze",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10799043772753": {
+      "titre": "Britt | Boho Badpak met Diepe V-hals",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/britt",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10795820220753": {
+      "titre": "Elenora | Gelaagde Zomerse Midi-Jurk",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/elenora",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10798090289489": {
+      "titre": "Esmee | Corrigerend Badpak met Open Rug",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/esmee",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10795819762001": {
+      "titre": "Odessa | Elegante Zomerjurk",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/odessa",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10794095837521": {
+      "titre": "Jasmijn | Hoge Taille Bikini met Twist-Detail",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/jasmijn",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10795732468049": {
+      "titre": "Maud | Elegante Zomerjurk",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/maud",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10794755359057": {
+      "titre": "Mara | Flatterende Tankini",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/mara",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10795583045969": {
+      "titre": "Floor | 3-delige Bikini Set met Gratis Cover-up",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/floor",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10794290217297": {
+      "titre": "Nina | Bedekkende Tankini",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/nina",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10793857483089": {
+      "titre": "Evi | Gegolfde Bikini",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/evi",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10792372339025": {
+      "titre": "Saar | Corrigerende Bikini",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/saar",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10792194015569": {
+      "titre": "Roos | Flowy Mesh Tankini",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/roos",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10790138970449": {
+      "titre": "Femke | Boho Bikini met Hoge Taille",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/femke",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10790057115985": {
+      "titre": "Romée | Bikini met Kanten Patroon en Gouden Details",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/romee",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10789911200081": {
+      "titre": "Sterre | Eendelig Badpak met Cut-Outs",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/sterre",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10787261415761": {
+      "titre": "Mirthe | Elegante Zomerjurk",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/mirthe",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10780477227345": {
+      "titre": "Liv | Relaxed Denimjack",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/liv",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10786876752209": {
+      "titre": "Marit | Hoge Taille One Shoulder Bikini",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/marit",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10785112195409": {
+      "titre": "Lieke | Tummy Control Badpak met Cut-Out",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/lieke",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10780476277073": {
+      "titre": "Tess | Stretchy Hoog Getailleerde Broek",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/tess",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10783347540305": {
+      "titre": "Hanne | High Waist Bikini met Mesh Rokje",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/hanne",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10780476997969": {
+      "titre": "Lotte | Orthopedische Sneakers van Ademend Textiel",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/lotte",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10780476866897": {
+      "titre": "Anouk | Flatterende Denimjurk",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/anouk",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10763696111953": {
+      "titre": "Libelle | Corrigerende Curl-Bikini",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/libelle",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10780475982161": {
+      "titre": "Nora | Flatterende Zomerjurk",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/nora",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10780475720017": {
+      "titre": "Nelle | Tanktop met Ingebouwde BH",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/nelle",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10780441248081": {
+      "titre": "Sisi | Twist-Front Bikini met Hoge Taille",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/sisi",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10763690901841": {
+      "titre": "Jodi | Hoge Taille Bikini met Speelse V-hals",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/jodi",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10763698504017": {
+      "titre": "Rosalyn | Slim-fit Swimsuit",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/rosalyn",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10763701354833": {
+      "titre": "Nadia | Halter Bikini met Vetersluiting",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/nadia",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10770029150545": {
+      "titre": "Demi | Flatterende Swimsuit",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/demi",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10763693031761": {
+      "titre": "Nadine | Flatterende Swimsuit met Rok",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/nadine",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10769350328657": {
+      "titre": "Emilia | Hoog Getailleerde Bikini met U-Vorm Top",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/emilia",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10763688018257": {
+      "titre": "Rosalie | Luchtige Tweedelige Zomerset",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/rosalie",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10763697815889": {
+      "titre": "Anne | Bikini met Gouden U-Detail",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/anne",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10763684315473": {
+      "titre": "Melanie | Geribbelde Bikini met Hoge Taille",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/melanie",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10763700175185": {
+      "titre": "Sabine | 2-in-1 Hoog Getailleerde Tummy Control Bikini",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/sabine",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10763689591121": {
+      "titre": "Feline | High-cut U-beugel bikini",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/feline",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10729725952337": {
+      "titre": "Jimena | Zomerse jurk",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/jimena",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10729750298961": {
+      "titre": "Danielle | Flatterende V-hals top",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/danielle",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10729744433489": {
+      "titre": "Ilse | Elegante Set met Jasje en Wijde Broek",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/ilse",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10729729655121": {
+      "titre": "Carmen | Flatterende Katoen-Linnen jurk",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/carmen",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10759902200145": {
+      "titre": "Dalah | Elegante Strik Taille Top",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/dalah",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10729721299281": {
+      "titre": "Lisa | Corrigerend Badpak met Buikcontrole",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/lisa",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10723651846481": {
+      "titre": "Hanna | Gehaakte Stand Cover-Up",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/hanna",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10723651551569": {
+      "titre": "Donna | Zijdeachtige Midi Sarong",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/donna",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10723651322193": {
+      "titre": "Renate | Lichte Beach Cover-Up",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/renate",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10735921529169": {
+      "titre": "Saevyrah | Zwevende Midi-Jurk",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/saevyrah",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10729723035985": {
+      "titre": "Claudine | Elegante Blouse met Geborduurde Kraag",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/claudine",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10735421686097": {
+      "titre": "Lilla | Zwevende Maxi-Jurk",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/lilla",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10729740534097": {
+      "titre": "Savannah | Hoog Getailleerde Flared Broek met Riemaccent",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/savannah",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10729749872977": {
+      "titre": "Zuri | Flatterende Maxi-Jurk met Bloemenpatroon",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/zuri",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10729743024465": {
+      "titre": "Valerie | Elegante V-hals Jurk",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/valerie",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10729746596177": {
+      "titre": "Mariël | Elegante 2-delige set",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/mariel",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10729745842513": {
+      "titre": "Dominique | Lichtgewicht Maxi Jurk",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/dominique",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10729722085713": {
+      "titre": "Yvo | Orthopedische Sandalen Dames van Volnerf Leer",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/yvo",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10729724412241": {
+      "titre": "Anna | Elegante Afslankende Jurk",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/anna",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10729734930769": {
+      "titre": "Melis | Lange Jurk met Vloeiende Midi-Rok",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/melis",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10729748955473": {
+      "titre": "Camille | Luchtige Zomerjurk",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/camille",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10723650928977": {
+      "titre": "Dani | Open-rug Zomerjurk",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/dani",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10723661939025": {
+      "titre": "Nella | Elegante Blouse",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/nella",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10723658105169": {
+      "titre": "Mirjam | Elegante Jumpsuit",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/mirjam",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10723650208081": {
+      "titre": "Ava | 3-delige Zwemset met Rok",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/ava",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10723657122129": {
+      "titre": "Dana | Trainingspak Dames met Gebreide Details",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/dana",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10723656040785": {
+      "titre": "Daniëla | Sportief pak met Capuchon en Zijstrepen",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/daniela",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10723662299473": {
+      "titre": "Jeanne | Elegante Sandalen",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/jeanne",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10723654074705": {
+      "titre": "Maria | Katoen-Linnen Set met Tanktop en Broek",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/maria",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10723661676881": {
+      "titre": "Sandra | Set met Knoopsluiting",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/sandra",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10723652698449": {
+      "titre": "Ella | Katoenen en Linnen Damesbroek",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/ella",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10723662856529": {
+      "titre": "Aelenah | Elegante Galajurk met Franjes en V-Hals",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/aelenah",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10723661414737": {
+      "titre": "Samantha | Mouwloze Top van Luxe Viscose",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/samantha",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10723659383121": {
+      "titre": "Kelley | Orthopedische Sandalen met Anatomische Ondersteuning",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/kelley",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10713895698769": {
+      "titre": "Naomi | Cozy Sweatshirtset",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/naomi",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10713896386897": {
+      "titre": "Clarandra | Afslankende Midi-Jurk",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/clarandra",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10713895862609": {
+      "titre": "Bella | Flatterende Jumpsuit met Losse Kimono",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/bella-set",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10713895272785": {
+      "titre": "Rheah | Afslankende Set",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/rheah",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10713894519121": {
+      "titre": "Helena | Elegant 2-Delig Pak",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/helena",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10713896190289": {
+      "titre": "Lucia | Zwevende Midi-Jurk",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/lucia",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10713894748497": {
+      "titre": "Freya | Afslankende Trenchcoat",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/freya",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10713894355281": {
+      "titre": "Viora | Zachte flatterende set",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/viora",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::8998406619473": {
+      "titre": "Flawless Dress | Elegante Lentejurk",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/flawless-dress",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10700505022801": {
+      "titre": "Melissa | Elegante Sandalen",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/melissa",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10700503384401": {
+      "titre": "Vitah | Ergonomische Comfortschoenen",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/vitah",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10700506595665": {
+      "titre": "Ellen | Zachte Mocassins voor Gevoelige Voeten",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/ellen",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10691156574545": {
+      "titre": "Lena | Zacht Suède Mocassins",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/lena",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10700509249873": {
+      "titre": "Mia | Orthopedische Sneakers",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/mia",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10700504662353": {
+      "titre": "Leila | 2-delige Katoen & Linnen set",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/leila",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10700509839697": {
+      "titre": "Giselle | Maxi Zomerjurk met Bloemeprint",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/giselle",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10700507971921": {
+      "titre": "Amelia | Zomerse Jurk",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/amelia",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10700507152721": {
+      "titre": "Krystyna | Elegante Loafers",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/krystyna",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10700507578705": {
+      "titre": "Carolina | Zwarte Loafers met Orthopedische Ondersteuning",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/carolina",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10700505416017": {
+      "titre": "Kelly | Spijkerjasje met Knopen",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/kelly",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10700508365137": {
+      "titre": "Eva | Lichtgewicht Ademende Sneakers",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/eva",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10700503843153": {
+      "titre": "Celima | Sandaal met Orthopedische Ondersteuning",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/celima",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10700503155025": {
+      "titre": "Jule | Elegante Lange Jurk",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/jule",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10691154051409": {
+      "titre": "Natalia | Kanten Jurk met Elegante V-Hals",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/natalia",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10683344945489": {
+      "titre": "Elina | Damestrui met Ronde Hals",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/elina",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10691151593809": {
+      "titre": "Margot | Comfortabele Gebreide Trui",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/margot",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10683333902673": {
+      "titre": "Sirena | Corrigerende Bikini",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/sirena",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10694057230673": {
+      "titre": "Lana | Zachte Leren Schoen",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/lana",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10683346911569": {
+      "titre": "FREJA | Linnen blouse",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/freja",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10683344847185": {
+      "titre": "Sophie | Asymmetrische elegante jurk",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/sophie",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10683343143249": {
+      "titre": "Lucie | Blouse met speelse halslijn",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/lucie",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10683342291281": {
+      "titre": "Arianne | Premium Leren Mocassins",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/arianne",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10683346649425": {
+      "titre": "Claudia | Elegante Mocassins",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/claudia",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10683342422353": {
+      "titre": "Evelien | Witte Dames Sneakers Met Optimale Ondersteuning",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/evelien",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10683345764689": {
+      "titre": "Monique | Chiffon jurk met V-hals",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/monique",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10683346518353": {
+      "titre": "Adel | Blouse met V-hals en rafels",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/adel",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10683345437009": {
+      "titre": "Leonie | Maxijurk met reverskraag",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/leonie",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10672451322193": {
+      "titre": "Kate | Elegeante lange jurk",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/kate",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10672441164113": {
+      "titre": "Katy | Zomerse jurk",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/katy",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10672431956305": {
+      "titre": "Samy | Blouse van linnenmix",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/samy",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10672442409297": {
+      "titre": "Jenna™ | Damesbroek met hoge taille",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/jenna",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10672439132497": {
+      "titre": "Olivia | Zacht damesvest met goude knopen",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/olivia",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10672444506449": {
+      "titre": "Nore | Flatterende damesblouse met elegant patroon",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/nore",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10672435102033": {
+      "titre": "Isabelle™ | Wollen damesjas met brede kraag",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/isabelle",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10672437592401": {
+      "titre": "Riva™ | Orthopedische Sandaal",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/riva-orthopedische-sandaal",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10670922137937": {
+      "titre": "Helene | Elegante Blazer",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/helene",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10670574436689": {
+      "titre": "Elvirah | CASUAL BLAZERBROEK met Hoge Taille en Straight Fit",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/elvirah",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10670349386065": {
+      "titre": "Elorah | TWEEKLEURIG GEBREID VEST",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/elorah",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10599529251153": {
+      "titre": "Silky Smooth | Eindelijk scheren zonder drama",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/silky-smooth-2",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10596795842897": {
+      "titre": "Elise Essential Blouse",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/elise-essential-blouse",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10585076695377": {
+      "titre": "Gigi™ – Lange Warme Jas Voor Dames",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/gigi",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10585076662609": {
+      "titre": "Serina™ | Luxe Trenchcoat Voor Het Tussenseizoen",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/serina",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10585076629841": {
+      "titre": "Annette™ | Elegante Luxe Blazer met Fluwelen Details",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/annette",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10577770611025": {
+      "titre": "Aya | Gewatteerde Jas Met Voering",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/aya",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10023766950225": {
+      "titre": "Mira | Comfortabele Open Sandalen",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/mira",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10034581504337": {
+      "titre": "Maeve | Vintage Western Boots",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/maeve",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10558035362129": {
+      "titre": "Amber™ | Veelzijdige Korte Jas voor Elk Weer",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/amber",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10558035165521": {
+      "titre": "Alice™ | Bruin Teddyjasje",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/alice",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10558034936145": {
+      "titre": "Aletta™ | Luxe Wollen Sloffen",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/aletta",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10552116969809": {
+      "titre": "InvisiFit™ Anti-Cameltoe Ondergoed",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/invisifit",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10530163491153": {
+      "titre": "Anika™ | Comfortabele Warme Winterlaarzen",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/anika",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10530163458385": {
+      "titre": "Aleida | Dames Grofgebreide Trui",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/aleida",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10526182703441": {
+      "titre": "GlowBrush™ | De Anti-Bad-Hair-Day Borstel",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/glowbrush",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10511515418961": {
+      "titre": "Annemiek | Dames Korte Jas Met Brede Kraag",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/annemiek",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10511515353425": {
+      "titre": "Anneliese | Dames Coltrui Met Isolerende Voering",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/anneliese",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10511515189585": {
+      "titre": "Marilyn | Stijlvol Kort Jasje Voor Dames",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/marilyn",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10511557165393": {
+      "titre": "Agnes | Dames Winterjas Met Capuchon",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/agnes",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10511514992977": {
+      "titre": "Ezmy | Dames Maxi-Jurk Met Ceintuur",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/ezmy",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10511495430481": {
+      "titre": "Ada | Dames Jurk Met Kraag en Knopen",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/ada",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10484594147665": {
+      "titre": "Fleur | Luxe Wikkeljas met Tailleriem | Flatterend & Chic",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/fleur",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10484594016593": {
+      "titre": "Cynthia | Warme & Flatterende Winter Set",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/cynthia",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10484593885521": {
+      "titre": "Bertine | De Set Waarin Je Je Meteen Goed Voelt",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/bertine",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10484593819985": {
+      "titre": "Adelheid | Luxe Oversized Winterjas Voor Dames",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/adelheid",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10482925633873": {
+      "titre": "Brigitte | 2-delige Set",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/brigitte",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10482898665809": {
+      "titre": "Senna | Set met Cold-Shoulder top & Midi-Rok",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/senna",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10444276400465": {
+      "titre": "Emma | Gebreid Damesjack met Rits | Gewatteerd",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/emma",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10435163980113": {
+      "titre": "Aleid™ | Korte Damesjas",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/aleid",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10435163881809": {
+      "titre": "Aliana™ | Dames Coltrui",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/aliana",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10404502634833": {
+      "titre": "Johanna | Dames Lange Modieuze Jas | Met Geribbelde Mouwen",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/johanna",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10404502602065": {
+      "titre": "Lift-Up | Shapewear-beha voor dames | Beugelloos",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/lift-up",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10404502569297": {
+      "titre": "Carina | Elegante jas",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/carina",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10401276035409": {
+      "titre": "Dalia | Winterjas met Ceintuur | Gewatteerd",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/dalia",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10399407669585": {
+      "titre": "Sheina | Dames Warme Trui Met Ritssluiting",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/sheina",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10397644161361": {
+      "titre": "Sora | Elegante en Warme Bodywarmerjas",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/sora",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10378512892241": {
+      "titre": "Luva™ | Warme Winter Slippers",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/luva",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10376764981585": {
+      "titre": "Mira™ | Faux Fur Jas",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/mira-jas",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10376385986897": {
+      "titre": "Elora™ | Lange Teddycoat voor Dames",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/elora",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10116414374225": {
+      "titre": "Noiréa 2 delige set",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/noirea",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10265325961553": {
+      "titre": "Luna Luxe | 2-delige Set",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/luna-luxe",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10364938715473": {
+      "titre": "Norah | Teddy Jas",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/norah",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::9440361054545": {
+      "titre": "CozyCloud™ Fleece Sloffen | 1+1 GRATIS",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/cozycloud",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10355741917521": {
+      "titre": "Maren Suede Luxe™ | Suede trenchcoat met Riem",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/maren-suede-luxe",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10349123371345": {
+      "titre": "Fayla Softwear | Winter Casual Tweedelige Set Voor Dames",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/fayla-softwear",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10348593348945": {
+      "titre": "Ilona™ | Elegante Lange Jas",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/ilona",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10344718631249": {
+      "titre": "Elinah - 2-Delige Classic Business Set",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/elinah",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10344255652177": {
+      "titre": "Nola Knit Dress | 1+1 GRATIS",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/nola-knit-dress",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10337620558161": {
+      "titre": "Selina | Fleece Tussenjas",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/selina",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10325357298001": {
+      "titre": "Mysa | Knusse Bodywarmer met Knopen",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/mysa",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10318354645329": {
+      "titre": "Suava | Zachte suèdelook voor dagelijks gebruik",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/suava",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10304958267729": {
+      "titre": "LuxeForm™ Shaping BH",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/luxeform",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10273240940881": {
+      "titre": "ComfortCurve Pantalon",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/comfortcurve",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10265314132305": {
+      "titre": "Valeria | Jurk Van Katoenmix",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/valeria",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10198920069457": {
+      "titre": "Summer Grace | Luchtige zomerse jurk",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/summer-grace",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10198894575953": {
+      "titre": "Azure Bloom luchtige zomer jurk",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/azure-bloom",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10198778904913": {
+      "titre": "Viva Noir | Zomers badpak",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/viva-noir",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10197553054033": {
+      "titre": "TopSecret | Top met Bh vulling",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/topsecret-top-met-bh-vulling",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10194776555857": {
+      "titre": "Jaimy | Blazer & Jurk 2-in-1 Set",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/jaimy",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10195762118993": {
+      "titre": "Amber Dune  | 2 Delig pak",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/amber-dune",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10195681411409": {
+      "titre": "Sorea | Corrigerend Badpak",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/sorea",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10195555549521": {
+      "titre": "Maréa | Badpak",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/marea-badpak",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10184334967121": {
+      "titre": "Eliza | Corrigerend Badpak",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/eliza",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10184321401169": {
+      "titre": "Bella Mae zomer jurk",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/bella-mae",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10182311412049": {
+      "titre": "Coastal Breeze set",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/coastal-breeze-set",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10177338442065": {
+      "titre": "Macy zomer set",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/macy-zomer-set",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10177277329745": {
+      "titre": "Nora lange rok",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/nora-lange-rok",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10175898616145": {
+      "titre": "Holly zomer jurk",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/holly-zomer-jurk",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10175751782737": {
+      "titre": "Liora CurveFit Jurk",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/liora-curvefit",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10174751572305": {
+      "titre": "Julia | Strandcover-up met knoopsluiting",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/julia-strandcover-up",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10169936150865": {
+      "titre": "Elara Bloom Jurk",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/elara-bloom-jurk",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10164854358353": {
+      "titre": "Flair & Fit | Corrigerende Bikini",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/flair-fit-bikini",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10153725002065": {
+      "titre": "Lola | Corrigerend Badpak",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/lola",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10153216246097": {
+      "titre": "Haven Noir Jurk",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/haven-noir-jurk",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10153706848593": {
+      "titre": "Aurora | Corrigerende Bikini",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/aurora-bikini",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10151587774801": {
+      "titre": "Vengee - Corrigerend Longsleeve Bodysuit",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/vengee-corrigerend-longsleeve-bodysuit",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10151575290193": {
+      "titre": "Vengee - Corrigerende Shorts met hoge taille",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/vengee-corrigerende-shorts-met-hoge-taille",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10151554384209": {
+      "titre": "Vengee - Corrigerende Tanga Shorts met hoge taille",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/vengee-corrigerende-tanga-shorts-met-hoge-taille",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10151534461265": {
+      "titre": "Vengee - Corrigerend zachte BH",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/vengee-corrigerend-zachte-bh",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10151054278993": {
+      "titre": "Vengee - Shapewear BH met Clips voor borstvoeding",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/vengee-shapewear-bh-met-clips-voor-borstvoeding",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10139012399441": {
+      "titre": "Vengee - Corrigerend Shapewear String Bodysuit met dikke bandjes",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/vengee-corrigerend-shapewear-string-bodysuit-met-dikke-bandjes",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10138595131729": {
+      "titre": "Vengee - Corrigerend Shapewear Bodysuit",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/vengee-corrigerend-shapewear-bodysuit",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10138542571857": {
+      "titre": "Liora Strandhoed",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/liora-strandhoed",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10138524647761": {
+      "titre": "Paloma Strandtas",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/paloma-strandtas",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10138506363217": {
+      "titre": "Costa Strandtas",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/costa-strandtas",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10134893363537": {
+      "titre": "Vengee - Corrigerend Shapewear Body met broekje",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/vengee-corrigerend-shapewear-body-met-broekje",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10134879633745": {
+      "titre": "Vengee - Corrigerend Shapewear String Bodysuit",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/vengee-corrigerend-shapewear-string-bodysuit",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10130974081361": {
+      "titre": "Raye Shaders | Luxe Zomerse Uitstraling",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/raye-shades",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10122204414289": {
+      "titre": "Lyra jurk",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/lyra",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10122146349393": {
+      "titre": "Rhea jurk",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/rhea",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10119453671761": {
+      "titre": "Viva Flora dress",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/viva-flora-dress",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10119389282641": {
+      "titre": "Flora Belle jurk",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/flora-belle-jurk",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10118853984593": {
+      "titre": "Viva Swimsuit",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/viva-swimsuit",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10113323630929": {
+      "titre": "Rosé shirt",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/rose-shirt",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10113278443857": {
+      "titre": "Amy Zomer shirt",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/amy-zomer-shirt",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10112743735633": {
+      "titre": "Iris zomerjurk",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/iris-zomerjurk",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10112730497361": {
+      "titre": "Claire | Broek",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/claire",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10110119215441": {
+      "titre": "Zeniq | 2 delig dames set",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/zeniq",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10109532930385": {
+      "titre": "Amara | Lounge Broek",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/amara",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10109505339729": {
+      "titre": "Felice | Veelzijdige Stijlvolle Broek",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/felice",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10109118972241": {
+      "titre": "Nikki - Linnen broek met hoge taille",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/nikki",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10099318817105": {
+      "titre": "Elvira | Corrigerend Badpak",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/elvira",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10102239658321": {
+      "titre": "Julène 3 delige set",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/julene",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10100824113489": {
+      "titre": "Verdita elegante jurk",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/verdita-elegante-jurk",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10099397951825": {
+      "titre": "Serena | Corrigerend Badpak",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/serena",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10099362201937": {
+      "titre": "Novah | Corrigerende Bikini",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/novah",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10095684321617": {
+      "titre": "Aby Jurk",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/aby-jurk",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10084438081873": {
+      "titre": "Rosabella chique jurk",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/rosabella",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10092152947025": {
+      "titre": "Valentina Elegante jurk",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/valentina-elegante-jurk",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10089673949521": {
+      "titre": "Zoulz sneakers",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/zoulz-sneakers",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10084382114129": {
+      "titre": "Sofia | Luchtige Zomerbroek",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/sofia",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10082910503249": {
+      "titre": "Romy 2-piece set",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/romy",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10082876293457": {
+      "titre": "Fiona Casual Dress",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/fiona",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10082738569553": {
+      "titre": "Lunaria Lentejurk",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/lunaria",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10079877955921": {
+      "titre": "Scarlet Luxe Jurk",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/scarlet",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10074865566033": {
+      "titre": "Aurora Dress",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/aurora",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10082614247761": {
+      "titre": "Nova jurk",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/nova",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10074842923345": {
+      "titre": "Jamie lentejurk",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/jamie",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10074794557777": {
+      "titre": "Jemma summer dress",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/jemma",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10063074492753": {
+      "titre": "Jolie Denim Jacket",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/jolie",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10063060664657": {
+      "titre": "Vivienne Midi",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/vivienne-midi",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10063031828817": {
+      "titre": "Livia | Set",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/livia",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10063019245905": {
+      "titre": "Rubi Dress",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/rubi",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10062997651793": {
+      "titre": "Eline | Jumpsuit",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/eline",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10062993293649": {
+      "titre": "Lunara | Jumpsuit",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/lunara",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10062983889233": {
+      "titre": "Noor Button Dress",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/noor",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10062977696081": {
+      "titre": "Elani Statement Dress",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/elani",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10062974812497": {
+      "titre": "Amaya Dress",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/amaya-dress",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10062795080017": {
+      "titre": "Flora Belle Dress",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/flora-belle",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10062716371281": {
+      "titre": "Caterina | Elegante Fluwelen Blazer",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/caterina",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::9005726073169": {
+      "titre": "Lynn strandjurk",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/lynn",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::9033964355921": {
+      "titre": "Shenna | Vintage leren tas",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/shenna",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::9055225053521": {
+      "titre": "Arianna Jurk",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/arianna-jurk",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::9080573657425": {
+      "titre": "IVEY Voorjaarsjurk",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/ivey-jurk",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::9449512534353": {
+      "titre": "Luvana | Comfy Tussenjas",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/luvana",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10038053437777": {
+      "titre": "Liva | Corrigerende Bikini",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/liva",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10036294680913": {
+      "titre": "Mila | Elegante 2-delige Set",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/mila",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10029879951697": {
+      "titre": "VitaStep™ | Omdat jouw voeten het verdienen",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/vitastep",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10023435010385": {
+      "titre": "Evy | Sleehak Lentesandalen",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/evy",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10014087446865": {
+      "titre": "Sophia Executive Set",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/sophia",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10009934561617": {
+      "titre": "Mabel | 2 Delige casual set",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/mabel",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10007944397137": {
+      "titre": "Lara | Mini Dress",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/lara-mini-dress",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::10006336078161": {
+      "titre": "Faux Fur Hooded Parka",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/faux-fur-hooded-parka",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::9997399425361": {
+      "titre": "Ayla | Stijlvolle Sportkleding Set",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/ayla",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::9881351881041": {
+      "titre": "Judy | Een tas voor elke gelegenheid",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/judy",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::9758617796945": {
+      "titre": "Alena | 2-delig pak",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/alena",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::9758393729361": {
+      "titre": "Romi | Set",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/romi",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::9471236079953": {
+      "titre": "Versa Luxe | De Omkeerbare Jas voor Alle Seizoenen",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/versa-luxe",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::9351429521745": {
+      "titre": "BeBold™ | Waar Stijl & Veiligheid samenkomen",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/bebold",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::9107881558353": {
+      "titre": "Luna | 4-in-1 tas",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/luna-tas",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::8930365178193": {
+      "titre": "Aria | Set",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/aria",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    },
+    "wijzijnvengee.nl::8871337394513": {
+      "titre": "Sienna | Slim-fit Reversjasje",
+      "concurrent": "wijzijnvengee.nl",
+      "source_url": "https://wijzijnvengee.nl/products/sienna",
+      "vu_le": "2026-06-20T13:50:15+00:00"
+    }
+  }
 }
