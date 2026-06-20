@@ -55,8 +55,10 @@ prix:
   prix_min_eur: 29.99                # PLANCHER : on ne traite/scrape AUCUN produit < ce prix (Lucas)
   arrondi: ".99"                     # utilisé seulement si appliquer_arrondi=true ou strategie markup
   compare_at:
-    actif: true
-    strategie: "concurrent"          # concurrent | markup | none
+    actif: false                     # PAS de barré auto : un prix de référence jamais pratiqué sur NOTRE
+                                     #   boutique = illégal (Directive Omnibus FR), bloqué par le classifier
+                                     #   2026-06-20. Barré seulement pour une VRAIE promo time-boxée (manuel).
+    strategie: "none"                # concurrent | markup | none
     remise_affichee: 0.45            # utilisé si strategie=markup
   note_legale_fr: >
     Prix barré permanent inventé = risque "prix de référence" (Directive Omnibus).

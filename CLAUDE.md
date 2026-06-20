@@ -46,9 +46,9 @@
 - Devise : **EUR**.
 - Règle : `prix_vente = prix_concurrent` (**identique**, multiplicateur 1.0, sans arrondi forcé).
 - **Prix plancher : on ne traite/scrape AUCUN produit concurrent < 29,99 €** (`prix.prix_min_eur`). Filtré dès le BLOC 1 (veille).
-- **Prix avant réduction (`Compare-at price`) : OBLIGATOIRE** (le barré fait partie de l'identité Oria, ~45–50 % affiché).
-  - Stratégie par défaut `concurrent` : si le concurrent expose un `compare_at_price` réel → le reprendre ×1.4 arrondi .99.
-  - Sinon `markup` : ancre = `prix_vente / (1 − remise_affichee)`, `remise_affichee = 0.45`.
+- **Prix avant réduction (`Compare-at price`) : PAS de barré automatique.** Un prix de référence jamais pratiqué sur NOTRE boutique = illégal (Directive Omnibus FR : référence = plus bas prix pratiqué sur 30 j). Reprendre le barré du concurrent ne suffit pas — c'est NOTRE historique qui compte. **Bloqué par le classifier 2026-06-20.**
+  - Barré autorisé **uniquement** pour une **vraie promo time-boxée** (le prix de départ a réellement été pratiqué ≥ 30 j), gérée manuellement.
+  - Création autonome → `compare_at.actif=false`, prix plein.
 - ⚠️ **Légal FR** : un prix barré permanent inventé viole la règle « prix de référence » (Directive Omnibus / Code conso : référence = plus bas prix pratiqué sur 30 j). Préférer `strategie=concurrent` ; ne pas fabriquer de fausse remise permanente.
 
 ## Variantes
