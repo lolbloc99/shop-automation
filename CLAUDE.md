@@ -78,10 +78,10 @@
   3. **3-5 variations** : bodies (primary texts) + titles (headlines) + descriptions.
 - Compte publicitaire / Page FB / IG / pixel : `[récupérés via MCP Meta au moment de créer]`.
 - **Structure (Lucas 2026-06-20)** : **1 seule campagne `Oria | TEST Fashion` en ABO** ; chaque nouveau produit = **+1 adset** (budget 10 €/j à l'adset) + 1 ad. Pas une campagne par produit (CBO multi-produits affame les nouveaux). Les **winners** migrent plus tard vers une campagne **SCALE (CBO)** à gros budget.
-- Budget de test par produit : 10 €/jour (à l'adset, ABO).
+- Budget de test par produit : **20 €/jour** (à l'adset, ABO) — 10 € jugé trop faible (Lucas 2026-06-20).
 - Audience par défaut : femmes FR, 25-65+ (age_max=65), large/advantage+ (à confirmer).
 - **Lancement AUTO** (choix Lucas 2026-06-20) : ad créée **ACTIVE** avec `start_time` = **J+1 à 00h01** (fuseau du compte / France) → démarre seule à 00h01 le lendemain. **Lève la règle « activation manuelle ».**
-- **Garde-fous budget (car auto)** : budget test **10 €/j par ad** (plafond par ad) + **max 3 nouvelles ads lancées/jour** (anti-emballement, `ads.max_nouvelles_par_jour`) + BLOC 4 surveille et recommande de couper. Ajustables en config.
+- **Garde-fous budget (car auto)** : budget test **20 €/j par adset** + **volume illimité** (1 adset/produit) + BLOC 4 surveille et recommande de couper. Toit dur = plafond de dépense compte Meta.
 - Texte d'accroche dans la voix de marque Oria. Claims interdits = mêmes que la voix de marque.
 
 ## Seuils ads (BLOC 4)
@@ -99,8 +99,8 @@ La data concurrente (textes, images) sert **UNIQUEMENT** de référence pour gé
 - **Bout en bout autonome** : image (sans logo/texte + QC) → produit Shopify active+publié → **ad Meta ACTIVE programmée J+1 00h01**. Aucun clic humain requis.
 - **Volume : ILLIMITÉ** (choix Lucas 2026-06-20) — N nouveaux produits détectés → N produits créés + N images + **N ads** (1 ad/produit). Pas de cap de nombre.
 - **Contrôle budget** :
-  - budget test **10 €/j par ad** (seul plafond par ad) ;
-  - ⚠ **dépense/jour = (nb produits détectés) × 10 €** (ex. 20 produits → 200 €/j) — assumé par Lucas ;
+  - budget test **20 €/j par adset** (seul plafond par adset) ;
+  - ⚠ **dépense/jour = (nb produits détectés) × 20 €** (ex. 20 produits → 400 €/j) — assumé par Lucas ;
   - toit dur conseillé = **plafond de dépense au niveau du COMPTE Meta** (réglé côté Ads Manager) ;
   - BLOC 4 surveille les ads actives et **recommande de couper** ce qui brûle (auto-coupe possible en phase 3).
 - Image : règle dure no logo / no texte / no watermark + QC (rejet si détecté).
