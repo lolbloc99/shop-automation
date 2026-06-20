@@ -37,6 +37,7 @@
   2. 1–2 phrases de lead.
   3. 3 sous-titres en gras : **section matière**, **section coupe**, et TOUJOURS **« Le bon geste d'entretien »** (instructions lavage).
   4. (optionnel) « Guide des tailles ».
+  5. **Note mannequin (fit) — TOUJOURS** : « Mannequin : 1m76, porte une taille S » (rassure sur la coupe ; standard 1m76 / taille S).
 - Pas d'emoji. Prose sous les sous-titres, pas de listes à puces.
 - Titre produit : `[Vêtement] [coupe/style] en [matière]`, minuscule après le 1er mot, 4–6 mots, **sans couleur ni SKU**. Ex. « Chemise oversize en coton ».
 - À privilégier : « Livraison offerte », « Retour gratuit », « Support Français », « Nous célébrons chaque corps », « Conception intentionnelle ».

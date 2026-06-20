@@ -43,6 +43,7 @@ voix_marque:
     - "section_matiere"
     - "section_coupe"
     - "le_bon_geste_d_entretien"     # toujours présent
+    - "note_mannequin_fit"           # TOUJOURS : "Mannequin : 1m76, porte une taille S" (guide coupe)
   titre_pattern: "[vêtement] [coupe/style] en [matière]"
   privilegier: ["Livraison offerte", "Retour gratuit", "Support Français",
                 "Nous célébrons chaque corps", "Conception intentionnelle"]
