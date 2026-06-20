@@ -1,0 +1,2 @@
+# shop-automation
+AUTOMATION ROUTINUE SCRAPE PRODUCTS 
