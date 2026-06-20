@@ -52,13 +52,13 @@
   - Éviter `soul_2` (injecte texte/watermark). Modèle pressenti `recraft-v4-1` (respecte le « no text »).
   - Contrôle qualité BLOC 2 : toute image suspectée de contenir logo/texte → **rejetée**, placée en `output/a_valider/` avec mention, jamais poussée automatiquement.
 - Style recommandé (calé sur Oria, à confirmer au 1er run) : **packshot produit seul, fond uni quasi-blanc, sans mannequin ni props**, PNG.
-- Dimensions : 1024×1024 (fiche) + 1 variante 4:5 (1080×1350) pour les ads.
+- Dimensions : 1024×1024 (fiche) + **1:1 (1080×1080) pour les ads** (Advantage+ adapte à tous les placements ; pas de 4:5/9:16 en auto).
 - 1 image/produit (+1 par couleur si plusieurs coloris).
 
 ## Facebook Ads — via MCP Meta Ads (BLOC 3 — RIEN créé/activé en phase 1)
 - **3 règles immuables (Lucas)** :
   1. Objectif **OUTCOME_SALES** + pixel **PURCHASE** systématiques.
-  2. **Multi-format** dans la même ad via `asset_feed_spec` : 1:1 + 4:5 + 9:16.
+  2. **Visuel 1:1 unique** : Advantage+ placements le recadre sur tous les feeds/placements. (Le MCP Meta ne sait pas uploader d'images ni gérer `asset_feed_spec` → pas de 4:5/9:16 natifs en auto ; à faire à la main si besoin.)
   3. **3-5 variations** : bodies (primary texts) + titles (headlines) + descriptions.
 - Compte publicitaire / Page FB / IG / pixel : `[récupérés via MCP Meta au moment de créer]`.
 - Budget de test par produit : 10 €/jour (défaut).

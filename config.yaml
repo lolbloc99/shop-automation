@@ -89,7 +89,7 @@ images:
   style: "packshot produit seul, fond uni quasi-blanc, sans mannequin"
   fond: "blanc"
   dimensions_fiche: [1024, 1024]
-  dimensions_ads: [1080, 1350]       # 4:5
+  dimensions_ads: [1080, 1080]       # 1:1 — Advantage+ recadre sur tous les placements
   images_par_produit: 1
   image_par_couleur: true
   # RÈGLE DURE : aucun logo, aucun texte, aucun watermark
@@ -104,7 +104,8 @@ ads:
   # --- 3 règles immuables Lucas ---
   objectif: "OUTCOME_SALES"          # (1) toujours OUTCOME_SALES
   evenement_conversion: "PURCHASE"   # (1) pixel PURCHASE
-  formats: ["1:1", "4:5", "9:16"]    # (2) multi-format même ad (asset_feed_spec)
+  formats: ["1:1"]                    # (2) visuel 1:1 unique — Advantage+ adapte tous les
+                                      #     placements (MCP ne supporte pas l'upload/asset_feed_spec)
   variations:                        # (3) 3-5 variations
     bodies: 5
     titles: 5

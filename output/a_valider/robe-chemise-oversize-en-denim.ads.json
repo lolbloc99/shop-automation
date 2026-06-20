@@ -11,7 +11,7 @@
     "billing_event": "IMPRESSIONS",
     "optimization_goal": "OFFSITE_CONVERSIONS",
     "promoted_object": {
-      "pixel_id": "{{PIXEL_ID}}",
+      "pixel_id": "3023048557869065",
       "custom_event_type": "PURCHASE"
     },
     "targeting": {
@@ -37,14 +37,10 @@
     "creative": {
       "asset_feed_spec": {
         "formats": [
-          "1:1",
-          "4:5",
-          "9:16"
+          "1:1"
         ],
         "visuels_par_format": {
-          "1:1": "https://d8j0ntlcm91z4.cloudfront.net/user_38VgbLjvz7zsTqgNxdxSSKXH8kN/hf_20260620_061047_4369a406-fbdb-474a-8317-e5b9b8e9e7fb.png",
-          "4:5": "https://d8j0ntlcm91z4.cloudfront.net/user_38VgbLjvz7zsTqgNxdxSSKXH8kN/hf_20260620_061051_4f5657cc-e37f-4feb-889f-2c35b289168b.png",
-          "9:16": "https://d8j0ntlcm91z4.cloudfront.net/user_38VgbLjvz7zsTqgNxdxSSKXH8kN/hf_20260620_061058_1bc98365-ee7c-447c-9bfb-fe7e711d04de.png"
+          "1:1": "https://d8j0ntlcm91z4.cloudfront.net/user_38VgbLjvz7zsTqgNxdxSSKXH8kN/hf_20260620_061047_4369a406-fbdb-474a-8317-e5b9b8e9e7fb.png"
         },
         "bodies": [
           "La robe-chemise en denim qui s'enfile sans réfléchir. Coupe oversize, jamais informe. Livraison offerte, retour gratuit.",
@@ -73,8 +69,8 @@
     }
   },
   "_meta": {
-    "compte_publicitaire": "{{ACT_ID}}",
-    "page_fb": "{{PAGE_ID}}",
+    "compte_publicitaire": "962375839333565",
+    "page_fb": "1118915447977601",
     "compte_ig": "{{IG_ID}}",
     "titre_produit": "Robe-chemise oversize en denim"
   }

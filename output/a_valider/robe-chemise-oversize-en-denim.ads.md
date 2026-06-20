@@ -4,7 +4,7 @@
 
 ## Règles immuables (vérif)
 - Objectif : **OUTCOME_SALES**  ·  Conversion pixel : **PURCHASE**
-- Multi-format (asset_feed_spec) : **1:1, 4:5, 9:16**
+- Multi-format (asset_feed_spec) : **1:1**
 - Variations : **5 bodies · 5 titles · 3 descriptions**
 
 ## Campagne / Ad set
@@ -37,7 +37,7 @@
 
 ## À remplir au GO de création (placeholders)
 - Lien produit : `https://oriastudio.store/products/robe-chemise-oversize-en-denim` (produit Shopify pas encore publié)
-- Visuels : `{'1:1': 'https://d8j0ntlcm91z4.cloudfront.net/user_38VgbLjvz7zsTqgNxdxSSKXH8kN/hf_20260620_061047_4369a406-fbdb-474a-8317-e5b9b8e9e7fb.png', '4:5': 'https://d8j0ntlcm91z4.cloudfront.net/user_38VgbLjvz7zsTqgNxdxSSKXH8kN/hf_20260620_061051_4f5657cc-e37f-4feb-889f-2c35b289168b.png', '9:16': 'https://d8j0ntlcm91z4.cloudfront.net/user_38VgbLjvz7zsTqgNxdxSSKXH8kN/hf_20260620_061058_1bc98365-ee7c-447c-9bfb-fe7e711d04de.png'}` (images non générées en phase 1)
-- Compte : `{{ACT_ID}}` · Page : `{{PAGE_ID}}` · IG : `{{IG_ID}}` · Pixel : `{{PIXEL_ID}}`
+- Visuels : `{'1:1': 'https://d8j0ntlcm91z4.cloudfront.net/user_38VgbLjvz7zsTqgNxdxSSKXH8kN/hf_20260620_061047_4369a406-fbdb-474a-8317-e5b9b8e9e7fb.png'}` (images non générées en phase 1)
+- Compte : `962375839333565` · Page : `1118915447977601` · IG : `{{IG_ID}}` · Pixel : `3023048557869065`
 
 **Pour activer** : valider ce draft → création live en PAUSED via MCP Meta → puis passage PAUSED→ACTIVE à la main.
