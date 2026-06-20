@@ -4,6 +4,13 @@
 > Principe directeur : **la machine prépare tout, l'humain valide ce qui engage de l'argent**
 > (mise en ligne Shopify, budget pub). **Phase actuelle : 1 (rodage).**
 
+## Direction de marque & structure (refonte 2026-06-20)
+- **Spec complète : [docs/2026-06-20-refonte-oria-studio-design.md](docs/2026-06-20-refonte-oria-studio-design.md)** — source de vérité de la structure boutique. Toute génération de page produit/collection DOIT la suivre.
+- DA : **quiet luxury minimaliste** (neutres chauds Papier/Sable/Taupe/Moka/Encre, serif Fraunces + sans Inter, wordmark espacé).
+- Catalogue en **capsules/drops** (1 capsule = 1 collection). Prix **premium accessible** (~40-70€).
+- Marketing **hybride** : premium sobre + offres ponctuelles par email. **Aucun prix barré permanent.**
+- PDP : galerie éditoriale + colonne sobre, accordéons (matière/entretien/livraison via métafields), reco « compléter la capsule ».
+
 ## Plateforme & import
 - Plateforme : **Shopify**.
 - Format d'import CSV (en-têtes EXACTS — nouveau format Shopify, une ligne par variante) :
