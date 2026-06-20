@@ -8,8 +8,12 @@ __pycache__/
 # chaque run et gonfleraient l'historique git.
 data/raw/*/products_p*.json
 
-# data/vus.json, data/nouveaux.json, logs/ et output/ RESTENT versionnés
-# (persistance requise pour les routines cloud — une routine n'a pas de mémoire).
+# data/vus.json + data/nouveaux.json RESTENT versionnés = la MÉMOIRE du système
+# (la routine a besoin de vus.json d'un run à l'autre ; elle committe data/).
+# logs/ N'EST PLUS versionné : routine locale (plus de cron cloud), logs éphémères.
 
 # macOS
 .DS_Store
+
+# logs runtime (éphémères, régénérés à chaque run)
+logs/
