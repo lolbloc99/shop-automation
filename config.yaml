@@ -92,14 +92,19 @@ variantes:
 
 # ---------- images (BLOC 2 — DÉSACTIVÉ en phase 1) ----------
 images:
-  generer: false                     # phase 1 : aucune génération Higgsfield
+  generer: true                      # phase 2 : génération active
   modele: "recraft-v4-1"             # standard ; respecte "no text" ; éviter soul_2 (injecte texte/watermark)
   style: "mannequin femme portant le vêtement, lifestyle, met en valeur le produit (choix Lucas 2026-06-20)"
   fond: "selon style (studio / rue / intérieur)"
   dimensions_fiche: [1024, 1024]
   dimensions_ads: [1080, 1080]       # 1:1 — Advantage+ recadre sur tous les placements
-  images_par_produit: 1
-  image_par_couleur: true
+  # --- galerie : 1 image par couleur + images communes ---
+  une_image_par_couleur: true        # K couleurs -> K images, chacune affectée à SA variante
+  images_communes: 2                 # + détail matière + lifestyle (partagées sur le produit)
+  couleur_reference: "concurrent"    # teinte calée sur la couleur dominante de l'image variante
+                                     #   concurrent (RÉFÉRENCE couleur seulement) ; fallback nom->hex ;
+                                     #   passée à recraft via le param `colors`
+  meme_mannequin_cadrage: true       # même mannequin/pose/fond entre couleurs, seule la couleur change
   # RÈGLE DURE : aucun logo, aucun texte, aucun watermark
   interdire_logo: true
   interdire_texte: true
