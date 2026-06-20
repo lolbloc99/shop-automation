@@ -1,0 +1,25 @@
+{
+  "_note": "Campagne Meta créée LIVE en PAUSED le 2026-06-20 (rodage produit test). Rien activé : aucune dépense tant que statut PAUSED.",
+  "compte_publicitaire": "962375839333565",
+  "devise": "USD",
+  "page_fb": "1118915447977601",
+  "page_nom": "Bonnes Affaires",
+  "pixel_id": "3023048557869065",
+  "produit_url": "https://oriastudio.store/products/robe-chemise-oversize-en-denim",
+  "campaign_id": "120249928368590725",
+  "adset_id": "120249928660330725",
+  "creative_id": "1723873335301892",
+  "ad_id": "120249928691070725",
+  "statut": "PAUSED",
+  "objectif": "OUTCOME_SALES",
+  "evenement": "PURCHASE",
+  "budget_jour": "10 (USD, CBO campagne)",
+  "audience": "FR femmes 25-65 advantage+",
+  "creative_actuelle": "mono-image 1:1 + 1 body + 1 title + 1 desc",
+  "a_completer_manuellement": [
+    "Ajouter visuels 4:5 et 9:16 (personnalisation par placement) — règle multi-format",
+    "Ajouter les 5 bodies / 5 titles / 3 descriptions — règle variations",
+    "Activer (PAUSED -> ACTIVE) à la main quand prêt",
+    "Vérifier moyen de paiement du compte avant activation"
+  ]
+}

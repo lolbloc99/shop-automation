@@ -10,3 +10,6 @@ data/raw/*/products_p*.json
 
 # data/vus.json, data/nouveaux.json, logs/ et output/ RESTENT versionnés
 # (persistance requise pour les routines cloud — une routine n'a pas de mémoire).
+
+# macOS
+.DS_Store

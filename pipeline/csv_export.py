@@ -50,6 +50,7 @@ def build_rows(contenu: dict, variantes: list, dry_run: bool = True) -> list[dic
     couleurs_fr = sorted({v["couleur"] for v in variantes if v["couleur"]})
     has_color = any(v["couleur"] for v in variantes)
     has_size = any(v["taille"] for v in variantes)
+    img_primary = (contenu.get("images") or {}).get("primary", "")
 
     for i, v in enumerate(variantes):
         if i == 0:
@@ -76,6 +77,10 @@ def build_rows(contenu: dict, variantes: list, dry_run: bool = True) -> list[dic
                 "Google Shopping / Gender": "Female",
                 "Google Shopping / Age group": "Adult",
                 "Google Shopping / Condition": "new",
+                # image générée (sans logo/texte) ; vide si pas encore générée
+                "Product image URL": img_primary,
+                "Image position": "1" if img_primary else "",
+                "Image alt text": contenu.get("titre", "") if img_primary else "",
             }
         else:
             row = {"URL handle": contenu.get("handle", "")}

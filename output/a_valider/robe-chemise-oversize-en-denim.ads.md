@@ -36,8 +36,8 @@
 - CTA : **SHOP_NOW**
 
 ## À remplir au GO de création (placeholders)
-- Lien produit : `{{SHOPIFY_PRODUCT_URL}}` (produit Shopify pas encore publié)
-- Visuels : `{'1:1': '{{VISUEL_1x1}}', '4:5': '{{VISUEL_4x5}}', '9:16': '{{VISUEL_9x16}}'}` (images non générées en phase 1)
+- Lien produit : `https://oriastudio.store/products/robe-chemise-oversize-en-denim` (produit Shopify pas encore publié)
+- Visuels : `{'1:1': 'https://d8j0ntlcm91z4.cloudfront.net/user_38VgbLjvz7zsTqgNxdxSSKXH8kN/hf_20260620_061047_4369a406-fbdb-474a-8317-e5b9b8e9e7fb.png', '4:5': 'https://d8j0ntlcm91z4.cloudfront.net/user_38VgbLjvz7zsTqgNxdxSSKXH8kN/hf_20260620_061051_4f5657cc-e37f-4feb-889f-2c35b289168b.png', '9:16': 'https://d8j0ntlcm91z4.cloudfront.net/user_38VgbLjvz7zsTqgNxdxSSKXH8kN/hf_20260620_061058_1bc98365-ee7c-447c-9bfb-fe7e711d04de.png'}` (images non générées en phase 1)
 - Compte : `{{ACT_ID}}` · Page : `{{PAGE_ID}}` · IG : `{{IG_ID}}` · Pixel : `{{PIXEL_ID}}`
 
 **Pour activer** : valider ce draft → création live en PAUSED via MCP Meta → puis passage PAUSED→ACTIVE à la main.

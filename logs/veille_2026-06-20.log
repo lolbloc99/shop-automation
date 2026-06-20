@@ -38,3 +38,15 @@
 13:00:58 [INFO] Rapport (recommandation seule) : /Users/lucas/Desktop/dossier sans titre/shop-automation/output/a_valider/rapport_ads_2026-06-20.md
 13:01:30 [INFO] === Analyse : 5 campagnes -> {'LAISSER TOURNER': 2, 'COUPER': 1, 'SCALER': 1, 'AJUSTER': 1} ===
 13:01:30 [INFO] Rapport (recommandation seule) : /Users/lucas/Desktop/dossier sans titre/shop-automation/output/a_valider/rapport_ads_2026-06-20.md
+13:13:34 [INFO] === Pipeline BLOC 2 — 1 produit(s) — dry_run=True ===
+13:13:34 [INFO] Fiche prête : robe-chemise-oversize-en-denim (6 variantes)
+13:13:34 [INFO] === 1 produit(s) prêt(s) à valider dans output/a_valider/ (0 brouillon(s) à rédiger) ===
+13:13:34 [INFO] === BLOC 3 ads — 1 produit(s) — dry_run=True ===
+13:13:34 [INFO] Draft campagne prêt : robe-chemise-oversize-en-denim (statut PAUSED)
+13:13:34 [INFO] === 1 draft(s) prêt(s) à valider (PAUSED) dans output/a_valider/ (0 brouillon) ===
+13:23:51 [INFO] === BLOC 3 ads — 1 produit(s) — dry_run=True ===
+13:23:51 [INFO] Draft campagne prêt : robe-chemise-oversize-en-denim (statut PAUSED)
+13:23:51 [INFO] === 1 draft(s) prêt(s) à valider (PAUSED) dans output/a_valider/ (0 brouillon) ===
+13:45:03 [INFO] === Pipeline BLOC 2 — 1 produit(s) — dry_run=True ===
+13:45:03 [INFO] Fiche prête : robe-chemise-oversize-en-denim (6 variantes)
+13:45:03 [INFO] === 1 produit(s) prêt(s) à valider dans output/a_valider/ (0 brouillon(s) à rédiger) ===

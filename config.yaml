@@ -109,12 +109,12 @@ ads:
     bodies: 5
     titles: 5
     descriptions: 3
-  # --- comptes / IDs (placeholders, remplis au GO de création live) ---
-  compte_publicitaire: ""            # act_... récupéré via MCP Meta au moment de créer
-  page_fb: ""
+  # --- comptes / IDs (renseignés au 1er rodage live, 2026-06-20) ---
+  compte_publicitaire: "962375839333565"   # Bluefocus (USD) -> budget en $
+  page_fb: "1118915447977601"              # Bonnes Affaires (pas de page Oria)
   compte_ig: ""
-  pixel_id: ""
-  budget_test_jour_eur: 10
+  pixel_id: "3023048557869065"             # Pixel 4 SE (sur oriastudio.store)
+  budget_test_jour_eur: 10                 # ⚠ compte USD -> ~$10/j
   audience_defaut:
     pays: ["FR"]
     genre: "femmes"

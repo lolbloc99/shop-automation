@@ -8,5 +8,13 @@
   "description_html": "<p>La robe-chemise qui s'enfile sans réfléchir.</p>\n<p>En denim souple, elle accompagne aussi bien une journée tranquille qu'un déjeuner improvisé : une pièce facile, qui se pose et fait tout le travail.</p>\n<h3><strong>Une matière qui tient dans le temps</strong></h3>\n<p>Un denim doux et résistant, pensé pour traverser les saisons sans se déformer.</p>\n<h3><strong>Une coupe oversize, pas informe</strong></h3>\n<p>La ligne suit la silhouette sans serrer et laisse une vraie liberté de mouvement.</p>\n<h3><strong>Le bon geste d'entretien</strong></h3>\n<p>Lavage à 30°C sur l'envers, séchage à l'air libre, repassage doux.</p>",
   "seo_title": "Robe-chemise oversize en denim | Oria Studio",
   "seo_desc": "Robe-chemise en denim souple, coupe oversize confortable. Livraison offerte, retour gratuit. Oria Studio célèbre chaque corps.",
-  "image_prompt": "Editorial e-commerce packshot of an oversized denim shirt dress on a plain near-white seamless studio background, no model, garment shown front-facing and full-length, soft even lighting, natural denim blue, high detail, catalog style. no text, no logo, no watermark, no typography, no letters."
+  "image_prompt": "Editorial e-commerce packshot of an oversized denim shirt dress on a plain near-white seamless studio background, no model, garment shown front-facing and full-length, soft even lighting, natural denim blue, high detail, catalog style. no text, no logo, no watermark, no typography, no letters.",
+  "images": {
+    "modele": "recraft-v4-1 (utility, fond #F7F7F5, sans logo/texte) — QC visuel OK",
+    "primary": "https://d8j0ntlcm91z4.cloudfront.net/user_38VgbLjvz7zsTqgNxdxSSKXH8kN/hf_20260620_061047_4369a406-fbdb-474a-8317-e5b9b8e9e7fb.png",
+    "1:1": "https://d8j0ntlcm91z4.cloudfront.net/user_38VgbLjvz7zsTqgNxdxSSKXH8kN/hf_20260620_061047_4369a406-fbdb-474a-8317-e5b9b8e9e7fb.png",
+    "4:5": "https://d8j0ntlcm91z4.cloudfront.net/user_38VgbLjvz7zsTqgNxdxSSKXH8kN/hf_20260620_061051_4f5657cc-e37f-4feb-889f-2c35b289168b.png",
+    "9:16": "https://d8j0ntlcm91z4.cloudfront.net/user_38VgbLjvz7zsTqgNxdxSSKXH8kN/hf_20260620_061058_1bc98365-ee7c-447c-9bfb-fe7e711d04de.png",
+    "local": "output/a_valider/images/robe-chemise-oversize-en-denim/"
+  }
 }

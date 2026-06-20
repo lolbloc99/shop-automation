@@ -60,11 +60,12 @@ def build_draft(product, redaction, creatives, cfg, date_str: str) -> dict:
             "asset_feed_spec": {
                 # multi-format dans la MÊME ad (règle 2)
                 "formats": ads["formats"],
-                "visuels_par_format": dict(PH_VISUEL),   # placeholders (images non générées)
+                # visuels générés (sans logo/texte) si dispos, sinon placeholders
+                "visuels_par_format": creatives.get("visuels") or dict(PH_VISUEL),
                 "bodies": creatives.get("bodies", []),       # règle 3 : 3-5
                 "titles": creatives.get("titles", []),
                 "descriptions": creatives.get("descriptions", []),
-                "link_url": PH_URL,                          # produit publié -> au GO
+                "link_url": creatives.get("link_url") or PH_URL,  # vrai lien si fourni
                 "call_to_action": {"type": creatives.get("call_to_action", "SHOP_NOW")},
             }
         },
