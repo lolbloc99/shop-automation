@@ -32,21 +32,27 @@ def find_new(normalized: list[dict], seen: dict) -> tuple[list[dict], dict, int]
     produits = dict(seen.get("produits", {}))
     # domaines déjà baseline (>=1 produit en mémoire) -> leurs nouveaux sont de vrais drops
     domaines_connus = {e.get("concurrent", "") for e in produits.values()} - {""}
+    # URLs déjà vues : l'URL produit (slug) est STABLE, l'id ne l'est pas. Un concurrent
+    # qui re-liste un produit lui donne un NOUVEL id mais garde la MÊME URL -> doublon.
+    urls_connues = {e.get("source_url", "") for e in produits.values()} - {""}
 
-    nouveaux, nb_baseline = [], 0
+    nouveaux, nb_baseline, nb_relist = [], 0, 0
     for prod in normalized:
         pid = prod["id"]
         if pid in produits:
             continue
         dom = prod.get("concurrent", "")
+        url = prod.get("source_url", "")
         produits[pid] = {
             "titre": prod.get("titre_source", ""),
             "concurrent": dom,
-            "source_url": prod.get("source_url", ""),
+            "source_url": url,
             "vu_le": prod.get("scraped_at", utils.now_iso()),
         }
-        if dom in domaines_connus:
-            nouveaux.append(prod)   # concurrent déjà connu -> vrai nouveau à traiter
+        if url and url in urls_connues:
+            nb_relist += 1          # même URL déjà vue (id re-listé) -> DOUBLON, on ne traite pas
+        elif dom in domaines_connus:
+            nouveaux.append(prod)   # concurrent connu + URL neuve -> vrai nouveau à traiter
         else:
             nb_baseline += 1        # 1er passage du concurrent -> baseline, on ne traite pas
-    return nouveaux, {"produits": produits}, nb_baseline
+    return nouveaux, {"produits": produits}, nb_baseline, nb_relist

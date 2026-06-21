@@ -1,11 +1,10 @@
 {
-  "genere_le": "2026-06-20",
-  "baseline": true,
-  "note": "Baseline seedee : 300 produits marques vus. Les vrais nouveaux apparaissent aux prochains runs du cron.",
+  "genere_le": "2026-06-21T02:36:10+00:00",
+  "dry_run": false,
   "concurrents_traites": [
     "wijzijnvengee.nl"
   ],
-  "nb_total_scrape": 300,
+  "nb_total_scrape": 301,
   "nb_nouveaux": 0,
   "produits": []
 }

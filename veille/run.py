@@ -119,10 +119,13 @@ def main() -> int:
     vus_path = utils.repo_path(cfg.get("sorties", {}).get("vus", "data/vus.json"))
     seen = diff.load_seen(vus_path)
     nb_avant = len(seen.get("produits", {}))
-    nouveaux, seen_maj, nb_baseline = diff.find_new(all_normalized, seen)
+    nouveaux, seen_maj, nb_baseline, nb_relist = diff.find_new(all_normalized, seen)
     if nb_baseline:
         logger.info("%d produits BASELINE (nouveau(x) concurrent(s) : catalogue d'arrivée "
                     "marqué vu, NON traité).", nb_baseline)
+    if nb_relist:
+        logger.info("%d produits RE-LISTÉS (même URL, id changé chez le concurrent) : "
+                    "DOUBLON, NON traité.", nb_relist)
 
     # sortie du jour
     nouveaux_path = utils.repo_path(

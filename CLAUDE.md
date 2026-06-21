@@ -28,6 +28,7 @@
 - Test initial : **https://wijzijnvengee.nl/** (Shopify, NL, EUR).
 - Méthode privilégiée : si Shopify → endpoint `/products.json` (structuré, propre). Fallback HTML + collage manuel.
 - **Onboarding d'un nouveau concurrent (RÈGLE)** : ajouter l'URL dans `concurrents.txt` suffit. Au **1er passage**, tout son catalogue d'arrivée est **baseliné** = marqué « vu » dans `vus.json` **sans être traité** (on ne crée PAS les centaines de produits déjà en ligne, souvent plus trend). **Seuls ses drops FUTURS** (ajoutés après l'onboarding) sont traités. Logique dans `veille/diff.py` (un domaine est « connu » dès ≥1 produit en mémoire).
+- **Garde anti-doublon / re-list** : un concurrent qui re-liste un produit lui donne un **nouvel id** mais garde la **même URL produit** (slug stable). La veille dédoublonne aussi sur l'**URL** → un re-list = **DOUBLON ignoré** (on ne recrée pas un produit déjà sur la boutique). Vu en réel 2026-06-21 (Veronica re-listée).
 
 ## Voix de marque (déduite d'Oria Studio)
 - Langue : **Français uniquement**.
