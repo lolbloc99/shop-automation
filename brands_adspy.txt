@@ -1,0 +1,8 @@
+# Marques à ESPIONNER (ad-spy) — JAMAIS clonées.
+# On lit leurs créatives Meta gagnantes (BrandSearch get_brand_ads sort=spend) pour
+# modéliser nos ANGLES / copy / format sur NOS produits. La veille ne crée AUCUN
+# produit depuis ici (ce ne sont pas des cibles de clonage, juste de l'inspiration pub).
+# Format : domaine | note
+nobodyschild.com | robes femme ~$60, GB, marque établie
+ohpolly.com | robes soirée ~$76, GB, marque établie
+arneclo.com | mode femme ~$79, GB, marque établie

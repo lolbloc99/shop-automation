@@ -25,6 +25,10 @@ Les crons récurrents expirent après 7 jours. Pour éviter ça, à CHAQUE run :
 
 ## 3. Pour CHAQUE nouveau produit de `data/nouveaux.json`
 
+### a0. Filtre CLONABILITÉ (AVANT tout — sinon skip le produit)
+- **Skip si brandé** : titre/source contient une marque de `clonabilite.marques_blocklist` (Nike, Adidas, LV, Gucci, Supreme, Disney…), OU l'image produit source porte un **logo/monogramme/texte de marque** (QC visuel de la réf).
+- On ne clone QUE des vêtements **logo-free** (le design est libre, le logo non). Robe/pantalon uni d'une marque connue = OK ; pièce brandée = SKIP.
+
 ### a. Fiche (voix Oria, FR)
 - Titre `[vêtement] [coupe]` ; desc 70-110 mots (accroche + section matière + section coupe +
   **« Le bon geste d'entretien »**) + ligne fit **« Mannequin : 1m76, porte une taille S »**.
@@ -57,6 +61,7 @@ Les crons récurrents expirent après 7 jours. Pour éviter ça, à CHAQUE run :
   `start_time` = **DEMAIN 00:01 fuseau Europe/Paris**, `dsa_beneficiary`+`dsa_payor` = `Oria Studio`.
 - Créative : image **hero (face)**, link produit, CTA `SHOP_NOW`, message voix Oria.
 - Crée l'ad → **active** campagne + adset + ad (ACTIVE).
+- **Ad-spy (optionnel, BrandSearch)** : pour caler l'angle/copy, regarder les créatives gagnantes des marques de `brands_adspy.txt` (`get_brand_ads(brand, platform=meta, sort_by=spend)`) → modéliser leur hook/format sur NOTRE produit. Ces marques sont **spy-only, jamais clonées**.
 
 ## 4. Clôture
 - `git add data/ && git commit -m "routine: <N> produits traités" && git push`.

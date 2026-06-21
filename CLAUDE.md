@@ -29,6 +29,9 @@
 - Méthode privilégiée : si Shopify → endpoint `/products.json` (structuré, propre). Fallback HTML + collage manuel.
 - **Onboarding d'un nouveau concurrent (RÈGLE)** : ajouter l'URL dans `concurrents.txt` suffit. Au **1er passage**, tout son catalogue d'arrivée est **baseliné** = marqué « vu » dans `vus.json` **sans être traité** (on ne crée PAS les centaines de produits déjà en ligne, souvent plus trend). **Seuls ses drops FUTURS** (ajoutés après l'onboarding) sont traités. Logique dans `veille/diff.py` (un domaine est « connu » dès ≥1 produit en mémoire).
 - **Garde anti-doublon / re-list** : un concurrent qui re-liste un produit lui donne un **nouvel id** mais garde la **même URL produit** (slug stable). La veille dédoublonne aussi sur l'**URL** → un re-list = **DOUBLON ignoré** (on ne recrée pas un produit déjà sur la boutique). Vu en réel 2026-06-21 (Veronica re-listée).
+- **2 listes distinctes** :
+  - `concurrents.txt` = cibles de **CLONAGE** (la veille clone leurs drops).
+  - `brands_adspy.txt` = marques à **ESPIONNER** (ad-spy via BrandSearch `get_brand_ads`), **JAMAIS clonées** — on récupère leurs angles/créatives gagnants pour nos propres produits. Ex. nobodyschild / ohpolly / arneclo (marques établies).
 
 ## Voix de marque (déduite d'Oria Studio)
 - Langue : **Français uniquement**.
@@ -96,6 +99,12 @@
 ## Règle absolue (droit d'auteur)
 La data concurrente (textes, images) sert **UNIQUEMENT** de référence pour générer mes propres contenus. **Jamais réutilisée telle quelle.**
 - **Image en référence = OK** pour capter la **forme du vêtement** (coupe/couleur), MAIS l'output doit être **transformatif** : mannequin, pose et fond **différents**. Un simple re-teintage de leur photo (même mannequin/pose) = quasi-copie = INTERDIT (vérifié 2026-06-20 : Nano Banana clonait, gpt_image_2 avec prompt "mannequin différent" = transformatif OK).
+
+## Clonabilité — quel produit on a le droit de cloner (Lucas 2026-06-21)
+- ✅ **Cloner** : TOUT vêtement **SANS logo de marque visible** — robe unie, pantalon, ensemble… **même si la marque source est connue** (une pièce unie d'Oh Polly = OK). Le **design du vêtement** n'est pas protégé (article utile).
+- ❌ **JAMAIS** : vêtements avec **logo / monogramme / texte de marque** (swoosh Nike, bandes Adidas, monogram LV, Gucci, Supreme, personnages licenciés Disney/Marvel, maillots d'équipes…). C'est de la **contrefaçon**.
+- Les 2 vraies lignes (craintes Lucas) : (1) **jamais leurs images** → on génère les nôtres ; (2) **jamais leur logo** → blocklist + QC.
+- **Filtre `clonabilite`** (config) : `marques_blocklist` (skip si le titre/source contient une marque) + `qc_logo_source` (logo sur l'image produit source → skip). La génération strip déjà tout logo/texte (QC images générées).
 
 ## Garde-fous (phase 2/3 — autonomie complète)
 - **Bout en bout autonome** : image (sans logo/texte + QC) → produit Shopify active+publié → **ad Meta ACTIVE programmée J+1 00h01**. Aucun clic humain requis.

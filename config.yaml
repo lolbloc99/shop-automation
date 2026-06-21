@@ -21,6 +21,7 @@ shopify:
 # ---------- BLOC 1 : veille ----------
 veille:
   fichier_concurrents: "concurrents.txt"
+  fichier_adspy: "brands_adspy.txt"   # marques à ESPIONNER (créatives), JAMAIS clonées
   delai_entre_requetes_sec: 2.0      # anti-blocage
   methode_priorite: "shopify_json"   # shopify_json | html | manuel
   shopify:
@@ -93,6 +94,19 @@ variantes:
       Brown: "Marron"
       Pink: "Rose"
       Yellow: "Jaune"
+
+# ---------- clonabilité (BLOC 2 — quel produit on a le droit de cloner) ----------
+clonabilite:
+  # Règle (Lucas 2026-06-21) : cloner TOUT vêtement SANS logo de marque (même si la
+  # marque source est connue, ex. une robe unie d'Oh Polly = OK). JAMAIS reproduire un
+  # logo/monogramme/texte de marque. TOUJOURS générer NOS propres images (pas les leurs).
+  interdire_logo_marque: true        # skip tout vêtement portant un logo/marque
+  qc_logo_source: true               # QC de l'image produit source : logo détecté -> skip
+  marques_blocklist: ["Nike", "Adidas", "Puma", "Under Armour", "Reebok", "New Balance",
+    "Converse", "Vans", "Jordan", "Louis Vuitton", "Gucci", "Chanel", "Dior", "Prada",
+    "Hermès", "Balenciaga", "Versace", "Burberry", "Fendi", "Lacoste", "Ralph Lauren",
+    "Tommy Hilfiger", "Calvin Klein", "Levi's", "Champion", "The North Face", "Stussy",
+    "Supreme", "Carhartt", "Disney", "Marvel", "NBA", "NFL", "Real Madrid", "Barcelona"]
 
 # ---------- images (BLOC 2 — DÉSACTIVÉ en phase 1) ----------
 images:
