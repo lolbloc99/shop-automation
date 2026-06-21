@@ -1,10 +1,11 @@
 {
-  "genere_le": "2026-06-21T02:36:10+00:00",
+  "genere_le": "2026-06-21T09:15:25+00:00",
   "dry_run": false,
   "concurrents_traites": [
-    "wijzijnvengee.nl"
+    "wijzijnvengee.nl",
+    "jemappelle.nl"
   ],
-  "nb_total_scrape": 301,
+  "nb_total_scrape": 1177,
   "nb_nouveaux": 0,
   "produits": []
 }
