@@ -141,7 +141,7 @@ ads:
     descriptions: 3
   # --- comptes / IDs (renseignés au 1er rodage live, 2026-06-20) ---
   compte_publicitaire: "962375839333565"   # Bluefocus (USD) -> budget en $
-  page_fb: "1118915447977601"              # Bonnes Affaires (pas de page Oria)
+  page_fb: "1108378915699122"              # "Bonne Affaire" (nouvelle page 2026-06-21 ; ancienne 1118915447977601 SUSPENDUE)
   compte_ig: ""
   pixel_id: "3023048557869065"             # Pixel 4 SE (sur oriastudio.store)
   budget_test_jour_eur: 20                 # ⚠ compte USD -> ~$20/j (Lucas : 10 trop faible)

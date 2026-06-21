@@ -38,6 +38,6 @@
 ## À remplir au GO de création (placeholders)
 - Lien produit : `https://oriastudio.store/products/robe-chemise-oversize-en-denim` (produit Shopify pas encore publié)
 - Visuels : `{'1:1': 'https://d8j0ntlcm91z4.cloudfront.net/user_38VgbLjvz7zsTqgNxdxSSKXH8kN/hf_20260620_070204_cf25349a-8ec5-41d5-8141-fdb6a5f4875a.png'}` (images non générées en phase 1)
-- Compte : `962375839333565` · Page : `1118915447977601` · IG : `{{IG_ID}}` · Pixel : `3023048557869065`
+- Compte : `962375839333565` · Page : `1108378915699122` · IG : `{{IG_ID}}` · Pixel : `3023048557869065`
 
 **Pour activer** : valider ce draft → création live en PAUSED via MCP Meta → puis passage PAUSED→ACTIVE à la main.

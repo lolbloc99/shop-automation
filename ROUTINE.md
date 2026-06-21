@@ -51,7 +51,7 @@ Les crons récurrents expirent après 7 jours. Pour éviter ça, à CHAQUE run :
 
 ### d. Ads (MCP Meta) — structure ABO
 - Ajoute **+1 adset** à la campagne ABO existante **`Oria | TEST Fashion` = `120249947032740725`**.
-- Compte `962375839333565`, page `1118915447977601`, pixel `3023048557869065` event `PURCHASE`.
+- Compte `962375839333565`, page `1108378915699122`, pixel `3023048557869065` event `PURCHASE`.
 - Adset : `optimization_goal OFFSITE_CONVERSIONS`, `destination_type WEBSITE`,
   `billing_event IMPRESSIONS`, `daily_budget 2000` ($20/j), targeting `{FR, genders:[2], 25-65}`,
   `start_time` = **DEMAIN 00:01 fuseau Europe/Paris**, `dsa_beneficiary`+`dsa_payor` = `Oria Studio`.
