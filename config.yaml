@@ -158,7 +158,7 @@ ads:
   page_fb: "1108378915699122"              # "Bonne Affaire" (nouvelle page 2026-06-21 ; ancienne 1118915447977601 SUSPENDUE)
   compte_ig: ""
   pixel_id: "3023048557869065"             # Pixel 4 SE (sur oriastudio.store)
-  budget_test_jour_eur: 20                 # ⚠ compte USD -> ~$20/j (Lucas : 10 trop faible)
+  budget_test_jour_eur: 10                 # Lucas 2026-06-22 : réduit à 10€/j pour le testing
   audience_defaut:
     pays: ["FR"]
     genre: "femmes"
