@@ -41,7 +41,7 @@ Les crons récurrents expirent après 7 jours. Pour éviter ça, à CHAQUE run :
   studio clair, GARDE le vêtement (coupe + couleur). Transformatif (pas un clone de leur photo).
 - **Recolors** (quality `low`) : 1 par couleur, en réutilisant le hero comme référence
   (même mannequin/pose, seule la couleur change).
-- **+ 1 vue de dos** (couleur principale seulement).
+- **+ 1 vue de dos OBLIGATOIRE** (couleur principale). **RÈGLE DURE (Lucas 2026-06-23)** : CHAQUE vêtement a sa vue de dos, **JAMAIS hero-only** même en gros volume → paralléliser via workflow pour tenir le débit. Réf dos = le hero généré (si l'import cloudfront échoue côté Higgsfield, réimporter via l'URL Shopify CDN du hero).
 - QC : rejeter toute image avec logo / texte / watermark.
 
 ### c. Shopify (MCP)

@@ -119,7 +119,7 @@ images:
   # (sinon = quasi-copie de leur photo = viole droit d'auteur). Output = image originale.
   cadrage: "face, plein pied, mannequin face caméra, vêtement entièrement visible tête aux pieds"
   consistance_couleur: "hero_puis_recolor"  # 1 hero/produit -> recolor par couleur = MÊME mannequin/pose, seule la couleur change
-  image_dos: "couleur_principale"    # + 1 vue de dos, couleur principale SEULEMENT (pas par couleur) — image commune
+  image_dos: "couleur_principale"    # + 1 vue de dos OBLIGATOIRE/produit (Lucas 2026-06-23 : jamais hero-only, même en volume) — couleur principale, image commune
   style: "mannequin femme face, plein pied, fond studio neutre (au cas par cas), premium catalog"
   fond: "studio neutre clair par défaut ; Lucas choisit au cas par cas"
   dimensions_fiche: [1024, 1024]
